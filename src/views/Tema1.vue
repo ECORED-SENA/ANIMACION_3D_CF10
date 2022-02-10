@@ -367,8 +367,7 @@
           ImagenInfografica.color-acento-contenido
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/tema1/img17.svg') 
-                figcaption Leyenda de la imagen
+                img(src='@/assets/curso/tema1/img17.svg')                 
 
             .tarjeta.p-3(x="68%" y="5%" numero="")
               div.BorTitImg(style="border-left-color: #D6BE6F") 
