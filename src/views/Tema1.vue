@@ -449,18 +449,342 @@
     p.mb-5 Adicionalmente, puede conocer sobre la teoría del color y cómo se requiere de una referencia para mezclar los colores y conseguir un efecto en concreto: 
 
     h2.mb-4 Teoría del color
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        LineaTiempoD.color-secundario
+          .row.justify-content-center(numero="1" titulo="Modelos de color")
+            .col-lg-4
+              figure.mb-5
+                img(src='@/assets/curso/tema1/img19.png') 
+              p.mb-4 <b>Modelo RGB</b>
+              p.mb-0 Modelo aditivo que se basa en los colores luz. El ojo humano cuenta con 3 tipos de conos o células foto receptoras que determinan los 3 colores primarios: rojo, verde y azul (RGB por siglas en inglés). De la combinación de estos 3 se obtiene el color blanco y la ausencia de los mismos dará como resultado el negro. Este modelo de color es usado para toda clase de dispositivos como pantallas, celulares, etc.
+            .col-lg-4
+              figure.mb-5
+                img(src='@/assets/curso/tema1/img20.png') 
+              p.mb-4 <b>Modelo CMYK</b>
+              p.mb-0 Modelo sustractivo basado en los colores pigmento o físicos. Los colores primarios en este modelo son: amarillo, cían y magenta (CMYK por sus siglas en inglés). Al contrario del modelo RGB, la combinación de los 3 primarios genera el color negro (key o black). Este modelo es usado en pintura, tintes e impresión.
+            .col-lg-4
+              figure.mb-5
+                img(src='@/assets/curso/tema1/img21.png') 
+              p.mb-4 <b>Modelo HSV</b>
+              p.mb-0 Se basa en las propiedades del color (tono , saturación y luminosidad), las cuales se explican en mayor detalle en la siguiente lección.
+          .row(numero="2" titulo="Propiedades del color")
+            .col-lg-6
+              figure.mb-5
+                img(src='@/assets/curso/tema1/img22.png') 
+            .col-lg-6
+              p.mb-1 <b>a. Tono (Hue)</b>
+              p.mb-4 Es el color en concreto y ayuda a diferenciarlos. Por ejemplo, al ver un objeto se dice que tiene un tono azul o anaranjado.
+
+              p.mb-1 <b>b. Saturación (Saturation)</b>
+              p.mb-4 Intensidad o pureza del color. En otras palabras, la cantidad de gris que se le ha agregado a un tono; así entre más saturado es un color, más vibrante es, mientras que, entre menos saturado, dará mayor descanso al ojo.
+
+              p.mb-1 <b>c. Luminosidad o valor (Value)</b>
+              p.mb-0 Describe el valor de claridad u oscuridad, en otras palabras, cantidad relativa de blanco o negro en un tono. Si agregamos el blanco a un color, obtendremos valores más claros del tono, llamados tintes. Por otro lado, si el que agregamos es el negro, tendremos valores más oscuros del tono, conocidos como matices. Por ejemplo, decimos que el rosa es un tinte del color rojo primario y el borgoña o rojo oscuro es un matiz (Whelan, 1994).
+          .row(numero="3" titulo="Círculo cromático")
+            .col-lg-6
+              figure.mb-5
+                img(src='@/assets/curso/tema1/img23.png') 
+            .col-lg-6.d-flex.align-items-center
+              p.mb-0 Se divide en doce segmentos, incluyendo los tonos primarios, secundarios y terciarios. Los tres colores primarios: rojo, amarillo y azul, forman un triángulo equilátero dentro del círculo. Si se mezclan en igual medida dos colores primarios, se obtiene un color secundario; y si se mezcla un primario con un secundario se tiene un terciario.
+
+          .row(numero="4" titulo="Armonía del color")
+            .col-lg-12
+              p.mb-5 Se debe saber que algunos colores se ven mejor juntos que otros, pero esto puede generar confusión si se trata de recordar cada uno. Por tanto, a continuación, se verán los 6 esquemas más efectivos de la armonía de color:
+              .row.mb-5
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img24.png') 
+                  p.mb-4 <b>Mocromático</b>
+                  p.mb-0 Es uno de los más fáciles de recordar, ya que es un solo color. Debido a la ausencia de otros colores, el espectador se enfoca en las diferencias de valor y saturación.
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img25.png') 
+                  p.mb-4 <b>Análogo</b>
+                  p.mb-0 Se usan colores adyacentes uno del otro. Es un esquema presente en la naturaleza, por ende, crean una sensación de calma, paz y comodidad.
+
+              .row.mb-5
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img26.png') 
+                  p.mb-4 <b>Complementario</b>
+                  p.mb-0 Es el esquema más popular, donde se usan colores de lados opuestos del círculo. Naturalmente siempre van bien juntos; sin embargo, como en el esquema de triada, se debe elegir un color predominante y usar el tono complementario para crear contraste o puntos de interés.
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img27.png') 
+                  p.mb-4 <b>Triada</b>
+                  p.mb-0 Quizás es una de las más difíciles de usar correctamente. Son tres colores que son equidistantes. El reto está en el equilibrio de cada uno de los tonos, dado que al usarse en la misma medida generará caos. Suele usarse para escenas con estilo cartoon, orientado al público infantil.
+
+              .row.mb-5
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img28.png') 
+                  p.mb-4 <b>Complementario dividido</b>
+                  p.mb-0 Similar al complementario, pero este esquema usa tres colores. Se debe seleccionar el tono complementario y dividirlo, es decir, tomar los dos colores adyacentes. Es útil para extender las posibilidades de la paleta de color, cuando dos tonos no son suficientes.
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img29.png') 
+                  p.mb-4 <b>Complementario doble</b>
+                  p.mb-0 Justo como el esquema complementario pero doble. Dos pares de colores complementarios (sin importar su posición dentro del círculo). Se debe ser muy cuidadoso con este esquema, pues sin el equilibrio adecuado creará caos. Lo mejor es usar un par en primer plano y el otro en el fondo.
+          
+              .row.mb-5.justify-content-center
+                .col-lg-7
+                  a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-link.svg")
+                    .anexo__texto
+                      p <b>Adobe Color.</b> Para crear paletas de color y jugar con diferentes esquemas puede consultar la herramienta creada por Adobe llamada Adobe Color, anteriormente conocida como Kuler desde internet.
+          .row(numero="5" titulo="Psicología del color")
+            .col-lg-12
+              p.mb-5 Es uno de los más fáciles de recordar, ya que es un solo color. Debido a la ausencia de otros colores, el espectador se enfoca en las diferencias de valor y saturación.
+              .row.mb-4
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img30.svg') 
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img31.svg') 
+              .row.mb-4
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img32.svg') 
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img33.svg') 
+              .row.mb-4
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img34.svg') 
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img35.svg') 
+              .row.mb-4
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img36.svg') 
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img37.svg') 
+              .row.mb-0
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img38.svg') 
+                .col-lg-6
+                  figure.mb-4
+                    img(src='@/assets/curso/tema1/img39.svg') 
+      
+    p.mb-4 En cuanto al ambiente frio y cálido, se trabaja al modificar algunos parámetros de las luces y el background, esto permite crear una tonalidad ambientada hacia los tonos fríos o cálidos, de acuerdo con lo que se tenga planteado para cada una de las escenas. En el siguiente video, se podrá observar con más detalle este proceso:
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador 
 
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3  Triángulo de iluminación
+    
+    .row.justify-content-center.mb-5
+      .col-lg-7.d-flex.align-items-center  
+        .row.justify-content-center.tema1-row2
+          .col-lg-9.my-5
+            p.mb-0 El triángulo de iluminación es el set adecuado para iluminar una escena y conseguir resultados efectivos. Este esquema situaría la luz principal, una luz de relleno y la contraluz que se complementan entre sí. La luz principal se sitúa hacia el objeto, la luz de relleno va al lado opuesto, con una intensidad más baja y la contraluz se sitúa por detrás, para darle profundidad a la escena; como puede verse en la siguiente figura:
+      .col-lg-5
+        .row.justify-content-center  
+          .col-lg-7
+            div.BorTit.mb-3         
+              p.mb-0 <b>Figura 40</b> Triangulo de iluminación
+        figure.mb-0
+          img(src='@/assets/curso/tema1/img40.png') 
+          figcaption Nota. Tomada de www.chamanexperience.com
+
+    p.mb-4 Se profundizará en este concepto aplicándolo en Blender, sobre un personaje y un escenario. Por ello, a continuación, le se invita a consultar el documento enlazado en donde se podrá ampliar más información al respecto, además, en el video que se encuentra a continuación brinda más información sobre este proceso:
+    figure.mb-4
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-end
+      .col-lg-3
+        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-doc.svg")
+          .anexo__texto
+            p <b>Triángulo de iluminación.</b>
     Separador 
 
     #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4 Reloj de Iluminación 
+
+    .row.justify-content-center.mb-5 
+      .col-lg-10.p-4(style="background-color: #F8F1E7")
+        p.mb-5 El reloj de iluminación es un método que se utiliza para ubicar la iluminación en un objeto, ubicando la luz según el esquema de una rueda de reloj, teniendo el rostro perpendicular a la cámara. Con el objeto en el centro de la esfera mirando de frente marcando las 6. A continuación, se verán en detalle cuál es la posición y el funcionamiento de este sistema (figura 2). 
+        .row.justify-content-center  
+          .col-lg-6
+            .row.justify-content-center  
+              .col-lg-8
+                div.BorTit2.mb-3         
+                  p.mb-0 <b>Figura 2</b>  Reloj de iluminación
+            figure.mb-0
+              img(src='@/assets/curso/tema1/img41.png')
+              figcaption Nota. Tomada de educa.ugr.es
+    
+    p.mb-4 Se invita a consultar el video que contiene el paso a paso del proceso: 
+
+    figure.mb-4
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    
+    .row.justify-content-end
+      .col-lg-9
+        p.mb-0 De igual manera, el documento que se ha dispuesto para ampliar la información al respecto del reloj de iluminación:
+      .col-lg-3
+        a.anexo.mb-0(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-doc.svg")
+          .anexo__texto
+            p <b>Reloj de Iluminación</b>
+
     Separador 
 
     #t_1_5.titulo-segundo.color-acento-contenido
       h2 1.5  Propiedades de la luz
+    
+    p.mb-4 Para dar inicio a este tema vale la pena resolver antes la pregunta: ¿qué es la luz? Se puede definir la luz como un fenómeno electromagnético que se propaga en forma de ondas que pueden ser percibidas por la visión, utilizando como herramienta los ojos; el reflejo de estas ondas ilumina las superficies en el entorno permitiendo ver los objetos y distinguir los colores alrededor.
+    p.mb-5 Entre las propiedades más importantes de la luz, están:
+
+    div.tema1-row3.pt-5.mb-5
+      .row.justify-content-center
+        .col-lg-10
+          figure.mb-4.px-5
+              img(src='@/assets/curso/tema1/img42.png')
+          p.mb-4 Para dar inicio a este tema vale la pena resolver antes la pregunta: ¿qué es la luz? Se puede definir la luz como un fenómeno electromagnético que se propaga en forma de ondas que pueden ser percibidas por la visión, utilizando como herramienta los ojos; el reflejo de estas ondas ilumina las superficies en el entorno permitiendo ver los objetos y distinguir los colores alrededor.
+          p.mb-0 Entre las propiedades más importantes de la luz, están:
+
+    TabsA.color-acento-contenido.tema1-tab1.mb-5      
+      .tarjeta.color-primario.p-5(titulo="Reflexión")
+        h4.mb-4 Reflexión
+        p.mb-4 Es un fenómeno ocasionado cuando un rayo de luz choca y rebota contra una superficie, de manera similar a como rebota una pelota contra el piso. En este fenómeno se presenta el rayo original (incidente), el rayo que se desvía en otra dirección (reflejado) y una línea imaginaria perpendicular a la superficie, llamada normal, como se observa en la siguiente figura:
+        .row.justify-content-center.mb-4  
+          .col-lg-6
+            .row.justify-content-center  
+              .col-lg-8
+                div.BorTit.mb-3         
+                  p.mb-0 <b>Figura 3</b> La reflexión de la luz
+            figure.mb-0
+              img(src='@/assets/curso/tema1/img43.png')
+              figcaption Nota. Tomada de www.todamateria.com
+        
+        p.mb-5 El rayo incidente y la normal forman un ángulo de incidencia, mientras que entre la normal y el rayo reflejado se forma un ángulo de reflexión. Entonces, la dirección e intensidad en que se refleja la luz dependen tanto de la forma y el material de la superficie reflectante, como de la dirección del rayo incidente.
+        .tema1-cajon2.mb-4
+          .cajon.color-secundario.p-4.mb-0
+            .row.justify-content-center  
+              .col-lg-1.p-0(style="width: 24px")
+                img(src='@/assets/curso/tema1/img44.svg')
+              .col-lg-11
+                p.mb-0 <b>Reflexión difusa y especular.</b> Si la superficie es rugosa, los rayos de luz rebotan en todas estas pequeñas irregularidades presentes en dicha superficie, formando distintos ángulos de incidencia, ocasionando que los rayos de luz se reflejan en distintas direcciones; a esto se le conoce como reflexión difusa. En cambio, si la superficie es lisa o pulida, la mayor parte de la luz rebota de manera uniforme sobre esta, ocasionando que los rayos se reflejan ordenadamente en haces de luz que conservan una dirección y forma definida; a lo cual se le conoce como reflexión especular.
+
+        .row.justify-content-center.mb-4  
+          .col-lg-11
+            .row.justify-content-center  
+              .col-lg-4
+                div.BorTit.mb-3         
+                  p.mb-0 <b>Figura 4</b> Reflexión especular y difusa
+            figure.mb-0
+              img(src='@/assets/curso/tema1/img45.png')
+              figcaption Nota. Tomada de educa.ugr.es
+        p.mb-5 Es gracias al fenómeno de reflexión de la luz que se visibiliza el entorno, ya que, al ser iluminado por una fuente lumínica natural –como el so–l, o artificial –como una lámpara–, los rayos se reflejan sobre las superficies de los diferentes elementos presentes permitiendo conocer detalles como su tamaño, color y forma. Algunos ejemplos de la reflexión de la luz son:
+
+        SlyderA
+          .row.justify-content-center
+            .col-lg-10
+              .row.justify-content-center
+                .col-lg-7
+                  figure.mb-0
+                    img(src='@/assets/curso/tema1/img46.png')
+                .col-lg-5
+                  h3.tema1-borde-titulo Imagen especular 
+                  p.mb-0 Es la formación de imágenes en espejos, en donde los rayos de luz rebotan sobre la superficie lisa de un espejo, formando una imagen por efecto de la reflexión de la luz.
+
+          .row.justify-content-center
+            .col-lg-10
+              .row.justify-content-center
+                .col-lg-7
+                  figure.mb-0
+                    img(src='@/assets/curso/tema1/img47.png')
+                .col-lg-5
+                  h3.tema1-borde-titulo Reflexión interna total 
+                  p.mb-0 Es un tipo de reflexión especial que se observa en las gemas, en donde los rayos de luz se reflejan y rebotan contra las superficies internas del cristal, produciendo destellos.
+
+          .row.justify-content-center
+            .col-lg-10
+              .row.justify-content-center
+                .col-lg-7
+                  figure.mb-0
+                    img(src='@/assets/curso/tema1/img48.png')
+                .col-lg-5
+                  h3.tema1-borde-titulo Halo solar 
+                  p.mb-0 Es un círculo difuso que rodea el sol, producido por la reflexión de la luz en la superficie de las gotas de agua que flotan en la atmósfera.
+
+          .row.justify-content-center
+            .col-lg-10
+              .row.justify-content-center
+                .col-lg-6
+                  figure.mb-0
+                    img(src='@/assets/curso/tema1/img49.png')
+                .col-lg-6
+                  h3.tema1-borde-titulo Tipo de materiales reflectivos 
+                  p.mb-0 Entre los materiales u objetos que reflejan una mayor cantidad de luz, se pueden encontrar los cuerpos reflejantes, que son aquellos que no dejan pasar los rayos de luz, sino que la desvían en otra dirección; por ejemplo, los espejos (cuerpos reflejantes por excelencia), el vidrio, los metales pulidos como el acero, la plata, el oro y el aluminio y algunos plásticos transparentes como el tereftalato de polietileno (Mylar) y el metacrilato espejo.
+
+      .tarjeta.tarjeta.color-primario.p-5(titulo="Refracción")
+        h4.mb-4 Refracción
+        p.mb-4 Es un fenómeno óptico que se presenta cuando los rayos de luz pasan de un medio a otro con diferente densidad, ocasionando un cambio de dirección y velocidad de propagación. En este fenómeno participa el rayo incidente que forma un ángulo de incidencia con la normal, mientras que entre la normal y el rayo refractado se forma un ángulo de refracción (figura 5).
+        .row.justify-content-center.mb-4  
+          .col-lg-7
+            .row.justify-content-center  
+              .col-lg-7
+                div.BorTit.mb-3         
+                  p.mb-0 <b>Figura 5</b> Refracción de la luz
+            figure.mb-0
+              img(src='@/assets/curso/tema1/img50.png')
+              figcaption Nota. Tomada de www.todamateria.com
+
+        p.mb-4 La dirección y la velocidad de propagación de la luz dependen de la densidad o consistencia de ambas sustancias, la longitud de onda y del ángulo de incidencia; por ejemplo, si un rayo de luz pasa del aire (medio menos denso) e ingresa a través de un vidrio (medio más denso) su velocidad disminuye, y viceversa, si pasa de un medio más denso a uno menos denso, su velocidad aumenta. 
+        p.mb-5 Este fenómeno ayuda a entender por qué un objeto recto se ve torcido o doblado cuando se introduce en un vaso con agua; o el efecto de doble imagen que se produce al observar, por ejemplo, un acuario desde cierto ángulo (figura 6).
+
+        .row.justify-content-center.mb-4  
+          .col-lg-12
+            .row.justify-content-center  
+              .col-lg-5
+                div.BorTit.mb-3         
+                  p.mb-0 <b>Figura 6</b> Ejemplos de la refracción de la luz
+            figure.mb-0
+              img(src='@/assets/curso/tema1/img51.png')
+              figcaption Nota. Tomada de www.diferenciador.com
+
+        p.mb-4 El fenómeno de refracción es especialmente útil para entender el funcionamiento de algunos instrumentos ópticos como lupas, lentes de microscopios o telescopios, los cuales cambian la trayectoria de la luz, la concentran y dan la sensación de aumentar el tamaño de las cosas.
+        p.mb-5 Los fenómenos de reflexión y refracción pueden ocurrir simultáneamente cuando un haz de luz incide sobre la superficie de un cuerpo transparente, como, por ejemplo, el agua sobre la cual una parte de los rayos de luz se reflejan, mientras que otra parte se refracta. Esto mismo sucede cuando la luz atraviesa la córnea del ojo (la cual es transparente) para llegar hasta la retina (figura 7).
+
+        .row.justify-content-center.mb-4  
+          .col-lg-12
+            .row.justify-content-center  
+              .col-lg-4
+                div.BorTit.mb-3         
+                  p.mb-0 <b>Figura 7</b>  Refracción de la luz
+            figure.mb-0
+              img(src='@/assets/curso/tema1/img52.png')
+              figcaption Nota. Tomada de www.todamateria.com
+
+      .tarjeta.tarjeta.color-primario.p-5(titulo="Parámetros de reflexión y refracción en animación 3D")
+        h4.mb-4 Parámetros de reflexión y refracción en animación 3D
+        p.mb-4 La mayoría de los programas utilizados para la animación 3D manejan valores de reflexión y refracción para la creación de materiales y texturas. El nivel de reflexión se manipula con un rango de entre 0 y 1, si un material tiene un valor de reflexión de 0 este será mate, en cambio si tiene un valor de 1 refleja todos los objetos que se encuentren en su entorno. Otro valor que se debe tener en cuenta es el glossiness, que usa el mismo rango que el valor anterior, cuando su valor es 1 entonces la superficie tendrá un reflejo totalmente nítido; sin embargo, en 0 los reflejos se dispersaron y se verá borroso:
+        .row.justify-content-center.mb-0  
+          .col-lg-12
+            .row.justify-content-center  
+              .col-lg-5
+                div.BorTit.mb-3         
+                  p.mb-0 <b>Figura 8</b> Valores de reflexión y refracción
+            figure.mb-0
+              img(src='@/assets/curso/tema1/img53.png')
+              figcaption Nota. Tomada de polygoncity.blogspot.com
     Separador 
 
 </template>
