@@ -87,7 +87,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '2.4',
             titulo:
-              'High Dinamic Range Image (HDRI) o imagen de alto rango dinámico',
+              '<i>High Dinamic Range Image</i> (HDRI) o imagen de alto rango dinámico',
             hash: 't_2_4',
           },
           {
@@ -108,7 +108,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Motores de render',
+        titulo: 'Motores de <i>render</i>',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -342,7 +342,7 @@ export default {
     {
       termino: '<em>Áectores</em>',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'en <i>software</i> de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
     },
     {
       termino: 'Moda',

@@ -62,24 +62,24 @@
           figure.mb-5
             img(src='@/assets/curso/tema2/img04.svg') 
 
-          p.mb-0 Blender define cinco tipos básicos de fuentes de luz, que comparten una serie de parámetros comunes estas son: sun, point, spot, área y background. Además, cada tipo de fuente de luz tiene un comportamiento definido y varios parámetros propios. La representación final de la superficie vendrá definida dependiendo del tipo de material y su comportamiento con la luz, por lo que los parámetros del material deberán definirse conjuntamente con los de las fuentes de luz.
+          p.mb-0 <i>Blender</i> define cinco tipos básicos de fuentes de luz, que comparten una serie de parámetros comunes estas son: <i>sun</i>, <i>point</i>, <i>spot</i>, área y <i>background</i>. Además, cada tipo de fuente de luz tiene un comportamiento definido y varios parámetros propios. La representación final de la superficie vendrá definida dependiendo del tipo de material y su comportamiento con la luz, por lo que los parámetros del material deberán definirse conjuntamente con los de las fuentes de luz.
 
     LineaTiempoD.color-primario
-      .row.justify-content-center(numero="a" titulo="SUN")
+      .row.justify-content-center(numero="a" titulo="<i>SUN</i>")
         .col-lg-12
           p.mb-4 Este tipo de luz brinda una iluminación constante en una ubicación lejana, utilizada principalmente para entornos abiertos. La dirección de la luz se puede girar, lo que permite simular la posición de la luz solar.<br>Se invita a observar el siguiente video para mayor información: 
           figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-      .row.justify-content-center(numero="b" titulo="POINT")
+      .row.justify-content-center(numero="b" titulo="<i>POINT</i>")
         .col-lg-12
           p.mb-4 Aquí la luz es omnidireccional, irradia la misma cantidad de luz en 360 grados disminuyendo su intensidad entre más lejos se encuentre de los objetos. Es decir, que los objetos empiezan a oscurecer.<br>Se invita a observar el siguiente video para mayor información: 
           figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-      .row.justify-content-center(numero="c" titulo="SPOT")
+      .row.justify-content-center(numero="c" titulo="<i>SPOT</i>")
         .col-lg-12
           p.mb-4 Esta luz se destaca por el tipo de forma de cono que tiene, ya que solo dentro de él se emite la luz. se puede ajustar el radio, para adquirir sombras más suaves.<br>Se invita a observar el siguiente video para más información al respecto: 
           figure
@@ -93,9 +93,9 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-      .row.justify-content-center(numero="e" titulo="BACKGROUN")
+      .row.justify-content-center(numero="e" titulo="<i>BACKGROUN</i>")
         .col-lg-12
-          p.mb-4 Este tipo de luz de ambiente que ya viene predefinido en Blender, el cual puede cambiar su color, valores y la fuerza de la luz, este es de tipo infinito, no tiene una posición de la luz, sino que ambienta todo el escenario por igual<br>Se invita a observar el siguiente video para mayor información: 
+          p.mb-4 Este tipo de luz de ambiente que ya viene predefinido en <i>Blender</i>, el cual puede cambiar su color, valores y la fuerza de la luz, este es de tipo infinito, no tiene una posición de la luz, sino que ambienta todo el escenario por igual<br>Se invita a observar el siguiente video para mayor información: 
           figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -110,10 +110,10 @@
           figure.mb-5
             img(src='@/assets/curso/tema2/img05.svg') 
 
-          p.mb-0 Una de las incorporaciones más potentes de Blender, en sus últimas versiones, corresponde al sistema de nodos de composición. Es de recordar que por medio de los nodos se pueden aplicar diferentes ajustes a los elementos de la escena (que se generan por capas de render), así hay un control preciso sobre el resultado final, además de hacer optimizaciones sobre diferentes capas. Entre estos nodos para iluminar se tienen los siguientes:
+          p.mb-0 Una de las incorporaciones más potentes de <i>Blender</i>, en sus últimas versiones, corresponde al sistema de nodos de composición. Es de recordar que por medio de los nodos se pueden aplicar diferentes ajustes a los elementos de la escena (que se generan por capas de <i>render</i>), así hay un control preciso sobre el resultado final, además de hacer optimizaciones sobre diferentes capas. Entre estos nodos para iluminar se tienen los siguientes:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-      .row.justify-content-center(titulo="Sky Texture")
+      .row.justify-content-center(titulo="<i>Sky</i> <i>Texture</i>")
         .col-lg-11
           p.mb-5 Es un tipo de textura que simula una iluminación solar y ambiental en la que se pueden modificar varios parámetros, como posición del sol respecto al horizonte, rotación en el mundo, entre otros valiosos ajustes.
           .row.justify-content-center
@@ -121,7 +121,7 @@
               figure.mb-0
                 img(src='@/assets/curso/tema2/img06.png') 
 
-      .row.justify-content-center(titulo="Volume Scatter")
+      .row.justify-content-center(titulo="<i>Volume</i> <i>Scatter</i>")
         .col-lg-11
           p.mb-5 Permite que la luz pase a través del volumen. El uso típico sería añadir niebla a una escena. También se puede utilizar con el nodo de absorción de volumen para crear humo.
           .row.justify-content-center
@@ -129,7 +129,7 @@
               figure.mb-0
                 img(src='@/assets/curso/tema2/img07.png') 
 
-      .row.justify-content-center(titulo="Emission Shader  ")
+      .row.justify-content-center(titulo="<i>Emission</i> <i>Shader</i>  ")
         .col-lg-11
           p.mb-5 Este ayuda a generar en los objetos una iluminación propia, la cual tiene la característica de ser suave y potente.
           .row.justify-content-center
@@ -146,14 +146,14 @@
             .anexo__icono
               img(src="@/assets/curso/tema2/img09.svg")
             .anexo__texto
-              p <b>Video.</b> Sky Texture
+              p <b>Video.</b> <i>Sky</i> <i>Texture</i>
       .col-lg-3
         .tema2-link
           a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
             .anexo__icono
               img(src="@/assets/curso/tema2/img09.svg")
             .anexo__texto
-              p <b>Video.</b> Volume Scatter
+              p <b>Video.</b> <i>Volume</i> <i>Scatter</i>
       .col-lg-3
         .tema2-link
           a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
@@ -164,25 +164,25 @@
     Separador 
 
     #t_2_4.titulo-segundo.color-acento-contenido
-      h2 2.4  High Dinamic Range Image (HDRI) o imagen de alto rango dinámico 
+      h2 2.4  <i>High Dinamic Range Image</i> (HDRI) o imagen de alto rango dinámico 
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img10.svg')})`}"
       )
       .bloque-texto-g__texto.p-5
-        p.mb-0 La mayoría de las fotos digitales, imágenes y renderizados contienen 24 bits por pixel, almacenando una gama de colores RGB, esto significa que pueden admitir hasta 16.777.216 colores diferentes, y se guardan en formatos bitmap como BMP, TGA, PNG y JPEG; por otra parte, generalmente los dispositivos que se usan para ver este tipo de imágenes como celulares, tablets, impresoras y computadores muestran una pequeña parte de la luz y colores (hasta 16 millones), en comparación con la cantidad real que se puede percibir. Por esta razón, tanto las imágenes tipo bitmap como los dispositivos usados para decodificarlas son considerados formatos de bajo rango dinámico o SDR (Standard Dynamic Range en inglés).
+        p.mb-0 La mayoría de las fotos digitales, imágenes y renderizados contienen 24 <i>bits</i> por pixel, almacenando una gama de colores RGB, esto significa que pueden admitir hasta 16.777.216 colores diferentes, y se guardan en formatos bitmap como BMP, TGA, PNG y JPEG; por otra parte, generalmente los dispositivos que se usan para ver este tipo de imágenes como celulares, tablets, impresoras y computadores muestran una pequeña parte de la luz y colores (hasta 16 millones), en comparación con la cantidad real que se puede percibir. Por esta razón, tanto las imágenes tipo bitmap como los dispositivos usados para decodificarlas son considerados formatos de bajo rango dinámico o SDR (<i>Standard Dynamic Range</i> en inglés).
 
     div(style="position:relative")
         div(style="position:absolute; top:0px; width:100%; height:100%")
           .row.tema2-row1.py-4
             .col-lg-6            
             .col-lg-6
-              p.mb-0(style="color: transparent") Posteriormente, aparecieron las imágenes en HDR (High Dinamic Range Image), que es un formato de rango dinámico mucho más alto en colores y valores; basado en la teoría tricromática del ojo humano y los valores de luminancia de cada píxel, de manera que no solo almacena el color, sino también la intensidad y el brillo de la luz real en ese punto del mapa (pixel); lo que amplía enormemente la escala de luces y colores, haciendo que las imágenes se vean de mejor calidad y mucho más realistas en comparación con una imagen en formato tradicional. 
+              p.mb-0(style="color: transparent") Posteriormente, aparecieron las imágenes en HDR (<i>High Dinamic Range Image</i>), que es un formato de rango dinámico mucho más alto en colores y valores; basado en la teoría tricromática del ojo humano y los valores de luminancia de cada píxel, de manera que no solo almacena el color, sino también la intensidad y el brillo de la luz real en ese punto del mapa (pixel); lo que amplía enormemente la escala de luces y colores, haciendo que las imágenes se vean de mejor calidad y mucho más realistas en comparación con una imagen en formato tradicional. 
           .row.py-4
             .col-lg-6            
             .col-lg-6
-              p.mb-0(style="color: transparent") Es por estas características, que este tipo de imágenes se usan para la simulación de entornos reales en softwares de animación 3D, en donde el valor de cada pixel es directamente proporcional a la luminancia de un objeto real, gracias a que el motor de renderizado es capaz de calcular y simular absolutamente toda la iluminación en una escena, detallando y diferenciando las distintas iluminaciones presentes, obteniendo como resultado imágenes ultra realistas. 
+              p.mb-0(style="color: transparent") Es por estas características, que este tipo de imágenes se usan para la simulación de entornos reales en <i>softwares</i> de animación 3D, en donde el valor de cada pixel es directamente proporcional a la luminancia de un objeto real, gracias a que el motor de renderizado es capaz de calcular y simular absolutamente toda la iluminación en una escena, detallando y diferenciando las distintas iluminaciones presentes, obteniendo como resultado imágenes ultra realistas. 
 
     .row.mb-5(style="position:relative; z-index:10000")
       .col-lg-6.d-flex.align-items-center.justify-content-center  
@@ -194,11 +194,11 @@
         .row.py-4
           //.col-lg-2          
           .col-lg-12
-            p.mb-0 Posteriormente, aparecieron las imágenes en HDR (High Dinamic Range Image), que es un formato de rango dinámico mucho más alto en colores y valores; basado en la teoría tricromática del ojo humano y los valores de luminancia de cada píxel, de manera que no solo almacena el color, sino también la intensidad y el brillo de la luz real en ese punto del mapa (pixel); lo que amplía enormemente la escala de luces y colores, haciendo que las imágenes se vean de mejor calidad y mucho más realistas en comparación con una imagen en formato tradicional. 
+            p.mb-0 Posteriormente, aparecieron las imágenes en HDR (<i>High Dinamic Range Image</i>), que es un formato de rango dinámico mucho más alto en colores y valores; basado en la teoría tricromática del ojo humano y los valores de luminancia de cada píxel, de manera que no solo almacena el color, sino también la intensidad y el brillo de la luz real en ese punto del mapa (pixel); lo que amplía enormemente la escala de luces y colores, haciendo que las imágenes se vean de mejor calidad y mucho más realistas en comparación con una imagen en formato tradicional. 
         .row.py-4
           //.col-lg-2         
           .col-lg-12
-            p.mb-0 Es por estas características, que este tipo de imágenes se usan para la simulación de entornos reales en softwares de animación 3D, en donde el valor de cada pixel es directamente proporcional a la luminancia de un objeto real, gracias a que el motor de renderizado es capaz de calcular y simular absolutamente toda la iluminación en una escena, detallando y diferenciando las distintas iluminaciones presentes, obteniendo como resultado imágenes ultra realistas. 
+            p.mb-0 Es por estas características, que este tipo de imágenes se usan para la simulación de entornos reales en <i>softwares</i> de animación 3D, en donde el valor de cada pixel es directamente proporcional a la luminancia de un objeto real, gracias a que el motor de renderizado es capaz de calcular y simular absolutamente toda la iluminación en una escena, detallando y diferenciando las distintas iluminaciones presentes, obteniendo como resultado imágenes ultra realistas. 
       
     p.mb-4 Las imágenes HDR se pueden obtener de dos formas, a partir de un algoritmo de iluminación global en un renderizado por computadora; o de una mezcla de múltiples fotografías con diferentes parámetros de exposición, para obtener diferentes imágenes con todo el rango posible de luz, para después unir todas las tomas en un único fichero.
     p.mb-4 En el siguiente video se ofrece más información sobre la iluminación e imagen de alto rango dinámico:
@@ -263,8 +263,8 @@
     
     .row.justify-content-center.mb-5
       .col-lg-8
-        p.mb-4 La fotografía de producto es una técnica utilizada principalmente para el marketing online de todo tipo de productos, desde autos, muebles, ropa, maquillaje, hasta comida y bebidas. Los parámetros de calidad para este tipo de fotos son bastante altos, ya que lo que se pretende es presentar y dejar una buena impresión del producto en el público, destacando sus atributos o características principales a través de la imagen resultante, de manera que entregue la mayor cantidad de información a los posibles compradores, persuadiéndolos para que lo compren.
-        p.mb-0 En este tipo de fotos, la iluminación es el factor más importante ya que define qué tan llamativa resultará la imagen; aquí, la iluminación natural es la ideal, pero debido a que no se puede controlar, se hace necesario utilizar una iluminación artificial fuerte y difusa proveniente de lámparas, flashes, difusores y reflectores que se acomodan de diferentes posiciones y ángulos, regulando su intensidad, con el objetivo de lograr imágenes con la mayor calidad y realismo posible.
+        p.mb-4 La fotografía de producto es una técnica utilizada principalmente para el <i>marketing</i> <i>online</i> de todo tipo de productos, desde autos, muebles, ropa, maquillaje, hasta comida y bebidas. Los parámetros de calidad para este tipo de fotos son bastante altos, ya que lo que se pretende es presentar y dejar una buena impresión del producto en el público, destacando sus atributos o características principales a través de la imagen resultante, de manera que entregue la mayor cantidad de información a los posibles compradores, persuadiéndolos para que lo compren.
+        p.mb-0 En este tipo de fotos, la iluminación es el factor más importante ya que define qué tan llamativa resultará la imagen; aquí, la iluminación natural es la ideal, pero debido a que no se puede controlar, se hace necesario utilizar una iluminación artificial fuerte y difusa proveniente de lámparas, <i>flashes</i>, difusores y reflectores que se acomodan de diferentes posiciones y ángulos, regulando su intensidad, con el objetivo de lograr imágenes con la mayor calidad y realismo posible.
       .col-lg-4
         figure.mb-0
           img(src='@/assets/curso/tema2/img14.svg') 

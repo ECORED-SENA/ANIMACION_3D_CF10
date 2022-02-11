@@ -12,7 +12,7 @@
       brbr      
       .row.justify-content-center
         .col-10.pt-5
-          p.mb-5 Los visual effects, o FX, son aquellos efectos que se agregan en la producción sin ayuda de la posproducción, en el caso de animación 3D, son los efectos que se crean directamente en la escena y que suelen crearse mediante sistemas emisores de partículas.
+          p.mb-5 Los <i>visual effects</i>, o FX, son aquellos efectos que se agregan en la producción sin ayuda de la posproducción, en el caso de animación 3D, son los efectos que se crean directamente en la escena y que suelen crearse mediante sistemas emisores de partículas.
           .row.justify-content-center  
             .col-lg-3
               div.BorTit2.mb-3         
@@ -20,12 +20,12 @@
           figure.mb-5
             img(src='@/assets/curso/tema4/img01.png') 
 
-          p.mb-0 Los sistemas de partículas en Blender sirven para generar efectos visuales destinados a simular efectos como fuego, lluvia, humo etc., y combinarse entre ellos para llevar a cabo un proyecto audiovisual mediante la configuración de los parámetros necesarios para que se adapten a la escena con casos prácticos, como la creación de fuentes de fuego, generación de nubes y lluvia, entre otros. 
+          p.mb-0 Los sistemas de partículas en <i>Blender</i> sirven para generar efectos visuales destinados a simular efectos como fuego, lluvia, humo etc., y combinarse entre ellos para llevar a cabo un proyecto audiovisual mediante la configuración de los parámetros necesarios para que se adapten a la escena con casos prácticos, como la creación de fuentes de fuego, generación de nubes y lluvia, entre otros. 
 
     div.tema3-fondo10.py-4.mb-5
               .row.justify-content-center
                 .col-lg-8.ps-5
-                  p.mb-4 <b>Motores render</b>
+                  p.mb-4 <b>Motores <i>render</i></b>
                   p.mb-5 A continuación, se presentan varios videos que explican cómo generar estos efectos, así mismo se invita a consultar el documento enlazado en donde encontrará información al respecto:
                   div.ps-4.pe-5
                     .row.justify-content-center.mb-4
@@ -90,14 +90,14 @@
             tbody
               tr
                 td.text-center ANEXO 1 
-                td.text-center Eleven - Rig Blender
+                td.text-center <i>Eleven - Rig</i> <i>Blender</i>
                 td.text-center.d-flex.justify-content-center
                   a(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")                           
                     img(style="width: 36px" src="@/assets/template/icono-pdf.svg")
 
               tr
                 td.text-center ANEXO 2
-                td.text-center Addon - Blender
+                td.text-center Addon - <i>Blender</i>
                 td.text-center.d-flex.justify-content-center
                   a(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")                           
                     img(style="width: 36px" src="@/assets/template/icono-pdf.svg")

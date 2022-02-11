@@ -96,7 +96,7 @@
                 .row.justify-content-center  
                   .col-lg-8
                     div.BorTit.mb-3         
-                      p.mb-0 <b>Figura 33</b> Ejemplo de luz frontal en software Blender
+                      p.mb-0 <b>Figura 33</b> Ejemplo de luz frontal en <i>software</i> <i>Blender</i>
                 figure.mb-0
                   img(src='@/assets/curso/tema1/img03.png') 
               .col-lg-1
@@ -113,7 +113,7 @@
                 .row.justify-content-center  
                   .col-lg-10
                     div.BorTit.mb-3         
-                      p.mb-0 <b>Figura 34</b> Ejemplo de luz lateral en software Blender
+                      p.mb-0 <b>Figura 34</b> Ejemplo de luz lateral en <i>software</i> <i>Blender</i>
                 figure.mb-0
                   img(src='@/assets/curso/tema1/img05.png') 
               .col-lg-1
@@ -131,7 +131,7 @@
                 .row.justify-content-center  
                   .col-lg-8
                     div.BorTit.mb-3         
-                      p.mb-0 <b>Figura 35</b> Ejemplo de luz cenital en software Blender
+                      p.mb-0 <b>Figura 35</b> Ejemplo de luz cenital en <i>software</i> <i>Blender</i>
                 figure.mb-0
                   img(src='@/assets/curso/tema1/img06.png') 
               .col-lg-1
@@ -149,7 +149,7 @@
                 .row.justify-content-center  
                   .col-lg-8
                     div.BorTit.mb-3         
-                      p.mb-0 <b>Figura 36</b> Ejemplo de contraluz en software Blender
+                      p.mb-0 <b>Figura 36</b> Ejemplo de contraluz en <i>software</i> <i>Blender</i>
                 figure.mb-0
                   img(src='@/assets/curso/tema1/img06.png') 
               .col-lg-1
@@ -170,7 +170,7 @@
                 .row.justify-content-center  
                   .col-lg-8
                     div.BorTit.mb-3         
-                      p.mb-0 <b>Figura 37</b> Ejemplo de luz dura en software Blender
+                      p.mb-0 <b>Figura 37</b> Ejemplo de luz dura en <i>software</i> <i>Blender</i>
                 figure.mb-0
                   img(src='@/assets/curso/tema1/img08.png') 
               .col-lg-1
@@ -188,7 +188,7 @@
                 .row.justify-content-center  
                   .col-lg-8
                     div.BorTit.mb-3         
-                      p.mb-0 <b>Figura 38</b> Ejemplo de luz suave en software Blender
+                      p.mb-0 <b>Figura 38</b> Ejemplo de luz suave en <i>software</i> <i>Blender</i>
                 figure.mb-0
                   img(src='@/assets/curso/tema1/img08.png') 
               .col-lg-1
@@ -228,7 +228,7 @@
 
           .row
               .col-lg-6.ps-5
-                p.ms-4.mb-4 Es el set adecuado para iluminar una escena y así conseguir resultados efectivos. Este esquema situaría la luz principal, una luz de relleno y la contraluz, que se complementan entre sí. La luz principal se sitúa hacia el objeto, la luz de relleno va al lado opuesto, con una intensidad más baja, y la contraluz se sitúa por detrás, para darle profundidad a la escena.
+                p.ms-4.mb-4 Es el <i>set</i> adecuado para iluminar una escena y así conseguir resultados efectivos. Este esquema situaría la luz principal, una luz de relleno y la contraluz, que se complementan entre sí. La luz principal se sitúa hacia el objeto, la luz de relleno va al lado opuesto, con una intensidad más baja, y la contraluz se sitúa por detrás, para darle profundidad a la escena.
 
               .col-lg-5
                 .row.justify-content-center  
@@ -462,7 +462,7 @@
               figure.mb-5
                 img(src='@/assets/curso/tema1/img20.png') 
               p.mb-4 <b>Modelo CMYK</b>
-              p.mb-0 Modelo sustractivo basado en los colores pigmento o físicos. Los colores primarios en este modelo son: amarillo, cían y magenta (CMYK por sus siglas en inglés). Al contrario del modelo RGB, la combinación de los 3 primarios genera el color negro (key o black). Este modelo es usado en pintura, tintes e impresión.
+              p.mb-0 Modelo sustractivo basado en los colores pigmento o físicos. Los colores primarios en este modelo son: amarillo, cían y magenta (CMYK por sus siglas en inglés). Al contrario del modelo RGB, la combinación de los 3 primarios genera el color negro (key o <i>black</i>). Este modelo es usado en pintura, tintes e impresión.
             .col-lg-4
               figure.mb-5
                 img(src='@/assets/curso/tema1/img21.png') 
@@ -473,13 +473,13 @@
               figure.mb-5
                 img(src='@/assets/curso/tema1/img22.png') 
             .col-lg-6
-              p.mb-1 <b>a. Tono (Hue)</b>
+              p.mb-1 <b>a. Tono (<i>Hue</i>)</b>
               p.mb-4 Es el color en concreto y ayuda a diferenciarlos. Por ejemplo, al ver un objeto se dice que tiene un tono azul o anaranjado.
 
               p.mb-1 <b>b. Saturación (Saturation)</b>
               p.mb-4 Intensidad o pureza del color. En otras palabras, la cantidad de gris que se le ha agregado a un tono; así entre más saturado es un color, más vibrante es, mientras que, entre menos saturado, dará mayor descanso al ojo.
 
-              p.mb-1 <b>c. Luminosidad o valor (Value)</b>
+              p.mb-1 <b>c. Luminosidad o valor (<i>Value</i>)</b>
               p.mb-0 Describe el valor de claridad u oscuridad, en otras palabras, cantidad relativa de blanco o negro en un tono. Si agregamos el blanco a un color, obtendremos valores más claros del tono, llamados tintes. Por otro lado, si el que agregamos es el negro, tendremos valores más oscuros del tono, conocidos como matices. Por ejemplo, decimos que el rosa es un tinte del color rojo primario y el borgoña o rojo oscuro es un matiz (Whelan, 1994).
           .row(numero="3" titulo="Círculo cromático")
             .col-lg-6
@@ -586,7 +586,7 @@
       .col-lg-7.d-flex.align-items-center  
         .row.justify-content-center.tema1-row2
           .col-lg-9.my-5
-            p.mb-0 El triángulo de iluminación es el set adecuado para iluminar una escena y conseguir resultados efectivos. Este esquema situaría la luz principal, una luz de relleno y la contraluz que se complementan entre sí. La luz principal se sitúa hacia el objeto, la luz de relleno va al lado opuesto, con una intensidad más baja y la contraluz se sitúa por detrás, para darle profundidad a la escena; como puede verse en la siguiente figura:
+            p.mb-0 El triángulo de iluminación es el <i>set</i> adecuado para iluminar una escena y conseguir resultados efectivos. Este esquema situaría la luz principal, una luz de relleno y la contraluz que se complementan entre sí. La luz principal se sitúa hacia el objeto, la luz de relleno va al lado opuesto, con una intensidad más baja y la contraluz se sitúa por detrás, para darle profundidad a la escena; como puede verse en la siguiente figura:
       .col-lg-5
         .row.justify-content-center  
           .col-lg-7
@@ -596,7 +596,7 @@
           img(src='@/assets/curso/tema1/img40.png') 
           figcaption Nota. Tomada de www.chamanexperience.com
 
-    p.mb-4 Se profundizará en este concepto aplicándolo en Blender, sobre un personaje y un escenario. Por ello, a continuación, le se invita a consultar el documento enlazado en donde se podrá ampliar más información al respecto, además, en el video que se encuentra a continuación brinda más información sobre este proceso:
+    p.mb-4 Se profundizará en este concepto aplicándolo en <i>Blender</i>, sobre un personaje y un escenario. Por ello, a continuación, le se invita a consultar el documento enlazado en donde se podrá ampliar más información al respecto, además, en el video que se encuentra a continuación brinda más información sobre este proceso:
     figure.mb-4
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -690,7 +690,7 @@
             figure.mb-0
               img(src='@/assets/curso/tema1/img45.png')
               figcaption Nota. Tomada de educa.ugr.es
-        p.mb-5 Es gracias al fenómeno de reflexión de la luz que se visibiliza el entorno, ya que, al ser iluminado por una fuente lumínica natural –como el so–l, o artificial –como una lámpara–, los rayos se reflejan sobre las superficies de los diferentes elementos presentes permitiendo conocer detalles como su tamaño, color y forma. Algunos ejemplos de la reflexión de la luz son:
+        p.mb-5 Es gracias al fenómeno de reflexión de la luz que se visibiliza el entorno, ya que, al ser iluminado por una fuente lumínica natural –como el sol-, o artificial –como una lámpara–, los rayos se reflejan sobre las superficies de los diferentes elementos presentes permitiendo conocer detalles como su tamaño, color y forma. Algunos ejemplos de la reflexión de la luz son:
 
         SlyderA
           .row.justify-content-center
@@ -794,11 +794,11 @@ export default {
   data: () => ({
     datosSlyder: [
       {
-        titulo: 'Escenas del videojuego Ori and The Blind Forest (2015)',
+        titulo: 'Escenas del videojuego <i>Ori and The Blind Forest</i> (2015)',
         imagen: require('@/assets/curso/tema1/img12.png'),
       },
       {
-        titulo: 'Escenas del videojuego Ori and The Blind Forest (2015)',
+        titulo: 'Escenas del videojuego <i>Ori and The Blind Forest</i> (2015)',
         imagen: require('@/assets/curso/tema1/img13.png'),
       },
     ],
