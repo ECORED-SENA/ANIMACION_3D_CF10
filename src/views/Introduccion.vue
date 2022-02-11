@@ -18,7 +18,8 @@
 
     .row.justify-content-center
       .col-lg-10
-        h2.text-center(style="color: #D44F4A") Todos estos conocimientos, permitirán alcanzar logros y éxitos en la vida profesional.<br>¡Ánimo y bienvenido!
+        h2.text-center(style="color: #3D887B") Todos estos conocimientos, permitirán alcanzar logros y éxitos en la vida profesional.
+        h2.mb-0.text-center(style="color: #D44F4A") ¡Ánimo y bienvenido!
     Separador
 
 </template>

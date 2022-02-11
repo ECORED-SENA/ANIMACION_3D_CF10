@@ -56,11 +56,11 @@
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Stopmotion
 
-    div.tema2-fondo2.mb-5
+    div.tema1-row3.mb-5
       .row.justify-content-center
         .col-10.pt-5
           figure.mb-5
-            img(src='@/assets/curso/tema2/img04.svg') 
+            img(src='@/assets/curso/tema2/img16.svg') 
 
           p.mb-0 <i>Blender</i> define cinco tipos básicos de fuentes de luz, que comparten una serie de parámetros comunes estas son: <i>sun</i>, <i>point</i>, <i>spot</i>, área y <i>background</i>. Además, cada tipo de fuente de luz tiene un comportamiento definido y varios parámetros propios. La representación final de la superficie vendrá definida dependiendo del tipo de material y su comportamiento con la luz, por lo que los parámetros del material deberán definirse conjuntamente con los de las fuentes de luz.
 
@@ -216,7 +216,7 @@
       .row.justify-content-center
         .col-10.pt-5
           figure.mb-5
-            img(src='@/assets/curso/tema2/img01.svg') 
+            img(src='@/assets/curso/tema2/img17.svg') 
 
           p.mb-0 La iluminación en exteriores hace referencia a aquellas escenas ubicadas en espacios abiertos, en donde, generalmente, se usa una iluminación directa que depende de la luz natural proveniente del sol si se trata de un escenario diurno; o si por el contrario, se trata de un escenario nocturno, entonces la luz puede provenir tanto de fuentes naturales como la luna, la cual tiene la capacidad de proporcionar un tipo de iluminación mucho más tenue; o de fuentes artificiales como por ejemplo el alumbrado público, reflectores, etc. 
 

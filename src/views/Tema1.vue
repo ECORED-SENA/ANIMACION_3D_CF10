@@ -9,9 +9,7 @@
         span 1 
       h1 Conceptos básicos de iluminación
 
-    div.tema1-fondo1
-
-      div.tema1-div1.mb-4     
+    div.tema1-fondo1      
     
       div(style="position:relative")
         div(style="position:absolute; top:0px; width:100%; height:100%")
@@ -258,63 +256,111 @@
             td(colspan=2) 
               h4.text-center.texto-blanco.mb-0 Emociones negativas
           tr
-            td.td-borde 
-              h4.text-center.mb-0(style="color: black") Negro
+            td.td-borde
+              .row.justify-content-center
+                .col-lg-2
+                  div.circulo.border(style="background: black")
+                .col-lg-8
+                  h4.text-center.mb-0 Negro              
             td.td-borde.text-center(colspan=2) Sofisticación, seguridad, poder, sustancia, elegancia, autoridad.
             td.text-center(colspan=2) Opresión, amenaza, frialdad, pesadez, luto, maldad.
           tr
             td.td-borde 
-              h4.text-center.mb-0(style="color: #9B9B9B") Gris
+              .row.justify-content-center
+                .col-lg-2
+                  div.circulo.border(style="background: #9B9B9B")
+                .col-lg-8
+                  h4.text-center.mb-0 Gris
             td.td-borde.text-center(colspan=2) Atemporalidad, fuerza, fiabilidad, neutralidad, balance, inteligencia.
             td.text-center(colspan=2) Desconfianza, depresión, adormecimiento, mansedumbre, falta de energía.
           tr
             td.td-borde 
-              h4.text-center.mb-0(style="color: #C4C4C4") Blanco 
+              .row.justify-content-center
+                .col-lg-2
+                  div.circulo.border(style="background: #C4C4C4")
+                .col-lg-8
+                  h4.text-center.mb-0 Blanco 
             td.td-borde.text-center(colspan=2) Pureza, sofisticación, claridad, frescura, simplicidad, limpieza.
             td.text-center(colspan=2) Esterilidad, frialdad, elitismo, hostilidad, aislamiento, vacío.
           tr
             td.td-borde 
-              h4.text-center.mb-0(style="color: #DE3737") Rojo
+              .row.justify-content-center
+                .col-lg-2
+                  div.circulo.border(style="background: #DE3737")
+                .col-lg-8
+                  h4.text-center.mb-0 Rojo
             td.td-borde.text-center(colspan=2) Aventura, poder, pasión, acción, fuerza, intrepidez, amor.
             td.text-center(colspan=2) Ira, desafío, peligro, advertencia, agresión, dolor.
           tr
             td.td-borde 
-              h4.text-center.mb-0(style="color: #EC942F") Naranja
+              .row.justify-content-center
+                .col-lg-2
+                  div.circulo.border(style="background: #EC942F")
+                .col-lg-8
+                  h4.text-center.mb-0 Naranja
             td.td-borde.text-center(colspan=2) Valor, confidencialidad, calidez, optimismo, entusiasmo, energía.
             td.text-center(colspan=2) Privación, frustración, inmadurez,  frivolidad, letargo, ignorancia.
           tr
             td.td-borde 
-              h4.text-center.mb-0(style="color: #F2CB0A") Amarillo
+              .row.justify-content-center
+                .col-lg-2
+                  div.circulo.border(style="background: #F2CB0A")
+                .col-lg-8
+                  h4.text-center.mb-0 Amarillo
             td.td-borde.text-center(colspan=2) Optimismo, felicidad, extroversión, curiosidad, creatividad, calidez.
             td.text-center(colspan=2) Irracionalidad, temor, precaución,  cobardía, ansiedad, frustración.
           tr
             td.td-borde 
-              h4.text-center.mb-0(style="color: #6CDF20") Verde
+              .row.justify-content-center
+                .col-lg-2
+                  div.circulo.border(style="background: #6CDF20")
+                .col-lg-8
+                  h4.text-center.mb-0 Verde
             td.td-borde.text-center(colspan=2) Naturaleza, prosperidad, esperanza, suerte, armonía, frescura, salud.
             td.text-center(colspan=2) Aburrimiento, estancación, envidia, insipidez, enfermedad, enervación.
           tr
             td.td-borde 
-              h4.text-center.mb-0(style="color: #14C9CF") Turquesa
+              .row.justify-content-center
+                .col-lg-2
+                  div.circulo.border(style="background: #14C9CF")
+                .col-lg-8
+                  h4.text-center.mb-0 Turquesa
             td.td-borde.text-center(colspan=2) Comunicación, verdad, claridad, calma, salud, poder, inspiración.
             td.text-center(colspan=2) Jactancia, misterio, desconfianza,  reticencia, indiferencia.
           tr
             td.td-borde 
-              h4.text-center.mb-0(style="color: #0B5FF1") Azul
+              .row.justify-content-center
+                .col-lg-2
+                  div.circulo.border(style="background: #0B5FF1")
+                .col-lg-8
+                  h4.text-center.mb-0 Azul
             td.td-borde.text-center(colspan=2) Simpatía, armonía, amistad, lógica, seguridad, serenidad, confianza.
             td.text-center(colspan=2) Frialdad, indiferencia, antipatía, desánimo, inapetencia, descuido.
           tr
             td.td-borde 
-              h4.text-center.mb-0(style="color: #AF16E5") Violeta
+              .row.justify-content-center
+                .col-lg-2
+                  div.circulo.border(style="background: #AF16E5")
+                .col-lg-8
+                  h4.text-center.mb-0 Violeta
             td.td-borde.text-center(colspan=2) Sabiduría, riqueza, imaginación, misterio, creatividad, lujo, fantasía.
             td.text-center(colspan=2) Introversión, decadencia, mal humor, supresión, inferioridad, extravagancia.
           tr
             td.td-borde 
-              h4.text-center.mb-0(style="color: #E90DCC") Magenta
+              .row.justify-content-center
+                .col-lg-2
+                  div.circulo.border(style="background: #E90DCC")
+                .col-lg-8
+                  h4.text-center.mb-0 Magenta
             td.td-borde.text-center(colspan=2) Transformación, creatividad, pasión, imaginación, balance, innovación.
             td.text-center(colspan=2) Indignación, inconformidad, efimeridad, impulsividad, ligereza.
           tr
             td.td-borde 
-              h4.text-center.mb-0(style="color: #6D1111") Café
+              .row.justify-content-center
+                .col-lg-2
+                  div.circulo.border(style="background: #6D1111")
+                .col-lg-8
+                  h4.text-center.mb-0 Café
             td.td-borde.text-center(colspan=2) Seriedad, calidez, responsabilidad, terrosidad, soporte, autenticidad.
             td.text-center(colspan=2) Falta de humor y sofisticación, suciedad, tristeza, conservadurismo.
 
@@ -324,33 +370,33 @@
     p.mb-5 Comparando las imágenes anteriores se puede percibir que cada una de ellas evoca emociones diferentes. ¿Por qué sucede esto?, la respuesta está en el uso de los colores. En la imagen de la izquierda se destacan los colores azules, violetas y algunos tintes de verde que dan la sensación de que se trata de un mundo nocturno o frío; en contraste con la imagen de la derecha en la que se destacan los colores amarillos, amarillos verdosos, naranjas, terrosos y ocres que brindan la ilusión de un mundo más cálido.
     
     .row.justify-content-center.mb-5
-      .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/img14.png')})`}"
-          )
-          .bloque-texto-g__texto.px-4.py-5
-            br
-            p.my-5 Esto significa que brindan una percepción subjetiva de la sensación de temperatura y con base a esta se puede determinar si se trata de colores cálidos o fríos, los cuales influyen en las emociones y afectan el estado de ánimo.        
-            br
-            br
+      .col-lg-10        
+          .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/tema1/img14.png')})`}"
+            )
+            .bloque-texto-g__texto.px-4.py-5
+              br
+              p.my-5 Esto significa que brindan una percepción subjetiva de la sensación de temperatura y con base a esta se puede determinar si se trata de colores cálidos o fríos, los cuales influyen en las emociones y afectan el estado de ánimo.        
+              br
+              br
 
     .tarjeta--container.row.mb-5
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
-      .col-md.tarjeta.color-acento-contenido.p-5
+      .col-md.tarjeta.color-acento-botones.p-5
         .row.justify-content-center.mb-4
           .col-5           
               img(src='@/assets/curso/tema1/img15.svg', alt='Texto que describa la imagen')
           
-        h1.text-center Colores cálidos o activos
-        p.text-center Son aquellos asociados a efectos visuales de calor como la luz solar, el fuego, los atardeceres, la arena, la playa, etc., evocando fuertes sentimientos que promueven el movimiento. Funcionan bien en espacios grandes, haciéndolos sentir seguros, acogedores y más cercanos.
+        h1.text-center(style="color: #12263F") Colores cálidos o activos
+        p.text-center(style="color: #12263F") Son aquellos asociados a efectos visuales de calor como la luz solar, el fuego, los atardeceres, la arena, la playa, etc., evocando fuertes sentimientos que promueven el movimiento. Funcionan bien en espacios grandes, haciéndolos sentir seguros, acogedores y más cercanos.
       
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
-      .col-md.tarjeta.color-primario.text-white.p-5
+      .col-md.tarjeta.color-secundario.text-white.p-5
         .row.justify-content-center.mb-4
           .col-5            
               img(src='@/assets/curso/tema1/img16.svg', alt='Texto que describa la imagen')
@@ -360,90 +406,85 @@
 
     p.mb-5 Realizando una mezcla adecuada de colores cálidos y fríos se logra un equilibrio con un mayor contraste y mejor definición, que mejora la estética del videojuego, haciéndolo más agradable para el espectador.
 
-    .row.justify-content-center.mb-5
-      .col-4   
-      .col-3
+    .row.justify-content-center.mb-5      
+      .col-12
         .tema1-infografia
           ImagenInfografica.color-acento-contenido
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/tema1/img17.svg')                 
+                img(src='@/assets/curso/tema1/img54.svg')                 
 
-            .tarjeta.p-3(x="68%" y="5%" numero="")
+            .tarjeta.p-3(x="15%" y="4%" numero="")
               div.BorTitImg(style="border-left-color: #D6BE6F") 
                 h4.m-0 Dorado
               div.BorTitImg.BorTitImg2 
                 p.mb-0 Opulencia
 
-            .tarjeta.p-3(x="68%" y="11%" numero="")
+            .tarjeta.p-3(x="15%" y="11%" numero="")
               div.BorTitImg(style="border-left-color: #4D2311") 
                 h4.m-0 Marrón
               div.BorTitImg.BorTitImg2 
                 p.mb-0 Profundidad o experiencia
 
-            .tarjeta.p-3(x="68%" y="18%" numero="")
+            .tarjeta.p-3(x="15%" y="18%" numero="")
               div.BorTitImg(style="border-left-color: #F4E703") 
                 h4.m-0 Amarillo
               div.BorTitImg.BorTitImg2 
                 p.mb-0 Actitud positiva y alegría
 
-            .tarjeta.p-3(x="68%" y="24%" numero="")
+            .tarjeta.p-3(x="15%" y="24%" numero="")
               div.BorTitImg(style="border-left-color: #E42622") 
                 h4.m-0 Rojo
               div.BorTitImg.BorTitImg2 
                 p.mb-0 Pasión o excitación
 
-            .tarjeta.p-3(x="68%" y="30%" numero="")
+            .tarjeta.p-3(x="15%" y="31%" numero="")
               div.BorTitImg(style="border-left-color: #EB007F") 
                 h4.m-0 Rosa
               div.BorTitImg.BorTitImg2 
                 p.mb-0 Feminidad
 
-            .tarjeta.p-3(x="68%" y="36%" numero="")
+            .tarjeta.p-3(x="15%" y="38%" numero="")
               div.BorTitImg(style="border-left-color: #C5C5C5") 
                 h4.m-0 Plata
               div.BorTitImg.BorTitImg2 
                 p.mb-0 Intelectualidad
 
-            .tarjeta.p-3(x="68%" y="42%" numero="")
+            .tarjeta.p-3(x="15%" y="45%" numero="")
               div.BorTitImg(style="border-left-color: #029BDD") 
                 h4.m-0 Azul
               div.BorTitImg.BorTitImg2 
                 p.mb-0 Tristeza o depresión
             
-            .tarjeta.p-3(x="68%" y="48%" numero="")
+            .tarjeta.p-3(x="15%" y="51.3%" numero="")
               div.BorTitImg(style="border-left-color: #5DAE89") 
                 h4.m-0 Verde
               div.BorTitImg.BorTitImg2 
                 p.mb-0 Renovación o vida.
 
-            .tarjeta.p-3(x="68%" y="55%" numero="")
+            .tarjeta.p-3(x="15%" y="58.5%" numero="")
               div.BorTitImg(style="border-left-color: #7D2283") 
                 h4.m-0 Violeta
               div.BorTitImg.BorTitImg2 
                 p.mb-0 Espiritualidad
 
-            .tarjeta.p-3(x="68%" y="61%" numero="")
+            .tarjeta.p-3(x="15%" y="65%" numero="")
               div.BorTitImg(style="border-left-color: #747476") 
                 h4.m-0 Gris
               div.BorTitImg.BorTitImg2 
                 p.mb-0 Neutralidad y serenidad
 
-            .tarjeta.p-3(x="68%" y="67%" numero="")
+            .tarjeta.p-3(x="15%" y="72%" numero="")
               div.BorTitImg(style="border-left-color: #E4E4E6") 
                 h4.m-0 Blanco
               div.BorTitImg.BorTitImg2 
                 p.mb-0 Pureza
 
-            .tarjeta.p-3(x="68%" y="73%" numero="")
+            .tarjeta.p-3(x="15%" y="79%" numero="")
               div.BorTitImg(style="border-left-color: #000000") 
                 h4.m-0 Negro
               div.BorTitImg.BorTitImg2 
-                p.mb-0 Elegancia
-      .col-5      
-
-    figure.mb-5
-      img(src='@/assets/curso/tema1/img18.png') 
+                p.mb-0 Elegancia          
 
     p.mb-5 Adicionalmente, puede conocer sobre la teoría del color y cómo se requiere de una referencia para mezclar los colores y conseguir un efecto en concreto: 
 
@@ -491,87 +532,105 @@
           .row(numero="4" titulo="Armonía del color")
             .col-lg-12
               p.mb-5 Se debe saber que algunos colores se ven mejor juntos que otros, pero esto puede generar confusión si se trata de recordar cada uno. Por tanto, a continuación, se verán los 6 esquemas más efectivos de la armonía de color:
-              .row.mb-5
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img24.png') 
-                  p.mb-4 <b>Mocromático</b>
-                  p.mb-0 Es uno de los más fáciles de recordar, ya que es un solo color. Debido a la ausencia de otros colores, el espectador se enfoca en las diferencias de valor y saturación.
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img25.png') 
-                  p.mb-4 <b>Análogo</b>
-                  p.mb-0 Se usan colores adyacentes uno del otro. Es un esquema presente en la naturaleza, por ende, crean una sensación de calma, paz y comodidad.
+              SlyderA.mb-5
+                .row.justify-content-center
+                  .col-lg-10
+                    .row.justify-content-center
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img24.png') 
+                        p.mb-4 <b>Mocromático</b>
+                        p.mb-0 Es uno de los más fáciles de recordar, ya que es un solo color. Debido a la ausencia de otros colores, el espectador se enfoca en las diferencias de valor y saturación.
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img25.png') 
+                        p.mb-4 <b>Análogo</b>
+                        p.mb-0 Se usan colores adyacentes uno del otro. Es un esquema presente en la naturaleza, por ende, crean una sensación de calma, paz y comodidad.
 
-              .row.mb-5
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img26.png') 
-                  p.mb-4 <b>Complementario</b>
-                  p.mb-0 Es el esquema más popular, donde se usan colores de lados opuestos del círculo. Naturalmente siempre van bien juntos; sin embargo, como en el esquema de triada, se debe elegir un color predominante y usar el tono complementario para crear contraste o puntos de interés.
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img27.png') 
-                  p.mb-4 <b>Triada</b>
-                  p.mb-0 Quizás es una de las más difíciles de usar correctamente. Son tres colores que son equidistantes. El reto está en el equilibrio de cada uno de los tonos, dado que al usarse en la misma medida generará caos. Suele usarse para escenas con estilo cartoon, orientado al público infantil.
+                .row.justify-content-center
+                  .col-lg-10
+                    .row.justify-content-center
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img26.png') 
+                        p.mb-4 <b>Complementario</b>
+                        p.mb-0 Es el esquema más popular, donde se usan colores de lados opuestos del círculo. Naturalmente siempre van bien juntos; sin embargo, como en el esquema de triada, se debe elegir un color predominante y usar el tono complementario para crear contraste o puntos de interés.
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img27.png') 
+                        p.mb-4 <b>Triada</b>
+                        p.mb-0 Quizás es una de las más difíciles de usar correctamente. Son tres colores que son equidistantes. El reto está en el equilibrio de cada uno de los tonos, dado que al usarse en la misma medida generará caos. Suele usarse para escenas con estilo cartoon, orientado al público infantil.
 
-              .row.mb-5
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img28.png') 
-                  p.mb-4 <b>Complementario dividido</b>
-                  p.mb-0 Similar al complementario, pero este esquema usa tres colores. Se debe seleccionar el tono complementario y dividirlo, es decir, tomar los dos colores adyacentes. Es útil para extender las posibilidades de la paleta de color, cuando dos tonos no son suficientes.
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img29.png') 
-                  p.mb-4 <b>Complementario doble</b>
-                  p.mb-0 Justo como el esquema complementario pero doble. Dos pares de colores complementarios (sin importar su posición dentro del círculo). Se debe ser muy cuidadoso con este esquema, pues sin el equilibrio adecuado creará caos. Lo mejor es usar un par en primer plano y el otro en el fondo.
+                .row.justify-content-center
+                  .col-lg-10
+                    .row.justify-content-center
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img28.png') 
+                        p.mb-4 <b>Complementario dividido</b>
+                        p.mb-0 Similar al complementario, pero este esquema usa tres colores. Se debe seleccionar el tono complementario y dividirlo, es decir, tomar los dos colores adyacentes. Es útil para extender las posibilidades de la paleta de color, cuando dos tonos no son suficientes.
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img29.png') 
+                        p.mb-4 <b>Complementario doble</b>
+                        p.mb-0 Justo como el esquema complementario pero doble. Dos pares de colores complementarios (sin importar su posición dentro del círculo). Se debe ser muy cuidadoso con este esquema, pues sin el equilibrio adecuado creará caos. Lo mejor es usar un par en primer plano y el otro en el fondo.              
+                
           
-              .row.mb-5.justify-content-center
-                .col-lg-7
-                  a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-link.svg")
-                    .anexo__texto
-                      p <b>Adobe Color.</b> Para crear paletas de color y jugar con diferentes esquemas puede consultar la herramienta creada por Adobe llamada Adobe Color, anteriormente conocida como Kuler desde internet.
+              .tema2-link
+                .row.mb-5.justify-content-center
+                  .col-lg-7
+                    a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/curso/tema2/img09.svg")
+                      .anexo__texto
+                        p <b>Adobe Color.</b> Para crear paletas de color y jugar con diferentes esquemas puede consultar la herramienta creada por Adobe llamada Adobe Color, anteriormente conocida como Kuler desde internet.
           .row(numero="5" titulo="Psicología del color")
             .col-lg-12
               p.mb-5 Es uno de los más fáciles de recordar, ya que es un solo color. Debido a la ausencia de otros colores, el espectador se enfoca en las diferencias de valor y saturación.
-              .row.mb-4
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img30.svg') 
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img31.svg') 
-              .row.mb-4
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img32.svg') 
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img33.svg') 
-              .row.mb-4
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img34.svg') 
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img35.svg') 
-              .row.mb-4
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img36.svg') 
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img37.svg') 
-              .row.mb-0
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img38.svg') 
-                .col-lg-6
-                  figure.mb-4
-                    img(src='@/assets/curso/tema1/img39.svg') 
+              SlyderA.mb-5
+                .row.justify-content-center
+                  .col-lg-10
+                    .row.mb-4
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img30.svg') 
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img31.svg') 
+                    .row.mb-4
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img32.svg') 
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img33.svg') 
+
+                .row.justify-content-center
+                  .col-lg-10
+                    .row.mb-4
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img34.svg') 
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img35.svg') 
+                    .row.mb-4
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img36.svg') 
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img37.svg') 
+
+                .row.justify-content-center
+                  .col-lg-10  
+                    .row.mb-0
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img38.svg') 
+                      .col-lg-6
+                        figure.mb-4
+                          img(src='@/assets/curso/tema1/img39.svg') 
       
     p.mb-4 En cuanto al ambiente frio y cálido, se trabaja al modificar algunos parámetros de las luces y el background, esto permite crear una tonalidad ambientada hacia los tonos fríos o cálidos, de acuerdo con lo que se tenga planteado para cada una de las escenas. En el siguiente video, se podrá observar con más detalle este proceso:
     figure
