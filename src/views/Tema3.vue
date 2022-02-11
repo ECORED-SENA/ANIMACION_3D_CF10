@@ -92,7 +92,7 @@
                       img(src="@/assets/curso/tema2/img09.svg")
                     .anexo__texto
                       p <b>Video.</b>  Youtube fuente: Blendtuts-ES
-            div.tema2-fondo1.py-4
+            div.tema3-fondo10.py-4
               .row.justify-content-center
                 .col-lg-8.ps-5
                   p.mb-4 <b>Motores render</b>
@@ -133,7 +133,7 @@
         .row.justify-content-center(numero="b" titulo="Cycles")   
           .col-lg-12
             p.mb-5 Este sistema de render utiliza el trazado de rayos, basándose en físicas y su comportamiento para generar la imagen, se pueden pasar de eevee a cycles, puesto que son compatibles en ciertos parámetros. 
-            div.tema2-fondo2.py-4
+            div.tema3-fondo20.py-4
               .row.justify-content-center
                 .col-lg-8.ps-5
                   p.mb-4 <b>Cycles</b>
@@ -151,7 +151,7 @@
           .col-lg-12
             p.mb-0 Se creó con la función de ser utilizado para vistas previas, modelado y composición
              
-
+    separador
 
 </template>
 
