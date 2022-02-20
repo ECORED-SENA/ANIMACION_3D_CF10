@@ -53,13 +53,13 @@
           div.p-5(style="background: rgba(228, 199, 161, .3)")
             .row.px-2.mb-4
               .col-2(style="border: 2px solid #D44F4A")
-            p.mb-0 <b>Luz natural:</b> La luz natural es la que emite el sol y se proyecta sobre los cuerpos, pero varía según la hora del día. Por ello, es posible notar el momento del día según la posición del sol. Asimismo, las sombras variarán y será posible ver que, según se mueva el sol, las sombras serán más largas o más cortas sobre el piso, las sombras de los objetos serán marcadas de forma dura y densa. Esto puede variar solo cuando se encuentra un cielo nublado, el cual sirve de filtro, lo que hará que la luz sea menos densa y las sombras sean más tenues, menos marcadas. La hora del día también influirá en cómo se ve cualquier objeto, si se ve más frío o más cálido.
+            p.mb-0 <b>Luz natural:</b> la luz natural es la que emite el sol y se proyecta sobre los cuerpos, pero varía según la hora del día. Por ello, es posible notar el momento del día según la posición del sol. Asimismo, las sombras variarán y será posible ver que, según se mueva el sol, las sombras serán más largas o más cortas sobre el piso, las sombras de los objetos serán marcadas de forma dura y densa. Esto puede variar solo cuando se encuentra un cielo nublado, el cual sirve de filtro, lo que hará que la luz sea menos densa y las sombras sean más tenues, menos marcadas. La hora del día también influirá en cómo se ve cualquier objeto, si se ve más frío o más cálido.
         .col-lg-6.d-flex  
           //D2EBE7
           div.p-5(style="background: rgba(107, 188, 177, .3)")
             .row.px-2.mb-4
               .col-2(style="border: 2px solid #6BBCB1")
-            p.mb-0 <b>Luz artificial:</b> La luz artificial sería toda aquella producida por linternas, lámparas, bombillos, fogatas, velas, antorchas, entre otras. Puede propagarse de forma recta o radial, puede tener diferentes posiciones y orientaciones, así como también variedad de colores, intensidades y texturas 
+            p.mb-0 <b>Luz artificial:</b> la luz artificial sería toda aquella producida por linternas, lámparas, bombillos, fogatas, velas, antorchas, entre otras. Puede propagarse de forma recta o radial, puede tener diferentes posiciones y orientaciones, así como también variedad de colores, intensidades y texturas 
     
       TabsC.color-secundario
         .py-3.py-md-4(titulo="Aspectos importantes de la luz")
@@ -71,25 +71,25 @@
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
                     .col-lg-11.ps-1
-                      p.mb-0 <b>Luz directa.</b> Es la luz que se emite desde una fuente propia, por ejemplo, el sol, bombillos, antorchas.
+                      p.mb-0 <b>Luz directa:</b> es la luz que se emite desde una fuente propia, por ejemplo, el sol, bombillos, antorchas.
 
                   .row
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
                     .col-lg-11.ps-1
-                      p.mb-0 <b>Luz reflejada.</b> Es la luz que se recibe de un cuerpo u objeto que la refleja, pero no es propia de él; un ejemplo de ello serían las luces que llegan a los objetos luego de rebotar en superficies metálicas.
+                      p.mb-0 <b>Luz reflejada:</b> es la luz que se recibe de un cuerpo u objeto que la refleja, pero no es propia de él; un ejemplo de ello serían las luces que llegan a los objetos luego de rebotar en superficies metálicas.
 
                   .row
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
                     .col-lg-11.ps-1
-                      p.mb-0 <b>Dirección de la luz.</b> Es la posición del foco de luz con respecto al elemento que vamos a iluminar.
+                      p.mb-0 <b>Dirección de la luz:</b> es la posición del foco de luz con respecto al elemento que vamos a iluminar.
 
                   .row
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
                     .col-lg-11.ps-1
-                      p.mb-0 <b>Luz frontal.</b> Situada frente al objeto.
+                      p.mb-0 <b>Luz frontal:</b> situada frente al objeto.
               .col-lg-5
                 .row.justify-content-center  
                   .col-lg-8
@@ -123,7 +123,7 @@
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
                     .col-lg-11.ps-1
-                      p.mb-0 <b>Luz cenital.</b> Situada arriba del objeto.
+                      p.mb-0 <b>Luz cenital:</b> situada arriba del objeto.
                   
               .col-lg-5
                 .row.justify-content-center  
@@ -141,7 +141,7 @@
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
                     .col-lg-11.ps-1
-                      p.mb-0 <b>Contraluz.</b> Esta luz se sitúa detrás del objeto.
+                      p.mb-0 <b>Contraluz:</b> esta luz se sitúa detrás del objeto.
                   
               .col-lg-5
                 .row.justify-content-center  
@@ -152,7 +152,7 @@
                   img(src='@/assets/curso/tema1/img06.png') 
               .col-lg-1
 
-        .py-3.py-md-4(titulo="Intensidad de la luz. ")
+        .py-3.py-md-4(titulo="Intensidad de la luz ")
           SlyderE(indicadores="derecha")
             .row
               .col-lg-6.ps-5
@@ -162,7 +162,7 @@
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
                     .col-lg-11.ps-1
-                      p.mb-0 <b>Luz dura.</b> Se genera por una fuente con foco intenso, esta va a generar sombras más marcadas y más oscuras.
+                      p.mb-0 <b>Luz dura:</b> se genera por una fuente con foco intenso, esta va a generar sombras más marcadas y más oscuras.
                 
               .col-lg-5
                 .row.justify-content-center  
@@ -180,7 +180,7 @@
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
                     .col-lg-11.ps-1
-                      p.mb-0 <b>Luz suave.</b> Se genera cuando la fuente de luz se extiende y se dispersa, como sería el caso de los rayos del sol filtrados por nubes, o una bombilla con un pedazo de tela, o una lámpara, lo cual hace que la luz se difumine y produzca sombras transparentes no tan <b>perceptibles</b> como con la luz dura.
+                      p.mb-0 <b>Luz suave:</b> se genera cuando la fuente de luz se extiende y se dispersa, como sería el caso de los rayos del sol filtrados por nubes, o una bombilla con un pedazo de tela, o una lámpara, lo cual hace que la luz se difumine y produzca sombras transparentes no tan <b>perceptibles</b> como con la luz dura.
                 
               .col-lg-5
                 .row.justify-content-center  
@@ -200,17 +200,17 @@
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
                     .col-lg-11.ps-1
-                      p.mb-0 <b>Sombras propias.</b> Son las sombras que se encuentran en los objetos, en las partes del mismo donde la luz no alcanza a llegar.
+                      p.mb-0 <b>Sombras propias:</b> son las sombras que se encuentran en los objetos, en las partes del mismo donde la luz no alcanza a llegar.
                   .row
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
                     .col-lg-11.ps-1
-                      p.mb-0 <b>Sombras proyectadas.</b> Son las sombras que un objeto proyecta sobre la superficie donde se encuentra estacionado.
+                      p.mb-0 <b>Sombras proyectadas:</b> son las sombras que un objeto proyecta sobre la superficie donde se encuentra estacionado.
                   .row
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
                     .col-lg-11.ps-1
-                      p.mb-0 <b>Sombra reflejada.</b> Son las sombras que el objeto genera en otro objeto cercano a este.
+                      p.mb-0 <b>Sombra reflejada:</b> son las sombras que el objeto genera en otro objeto cercano a este.
 
 
               .col-lg-5
@@ -242,6 +242,8 @@
 
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2  Teoría del color 
+
+    p.mb-4 La psicología del color se dedica al estudio de los efectos que produce el color sobre la percepción y la conducta del ser humano, se relaciona de manera directa con las emociones, con el aprendizaje, el contexto en el cual se vive y ha crecido y hasta con la cultura. En la siguiente tabla se verán los principales colores y sus efectos y reacciones positivas y negativas en las emociones y estados de ánimo.
 
     div.BorTit2.mb-3         
       p.mb-0 <b>Tabla 1</b> Simbolismo psicológico de los colores a través de emociones que se transmiten
@@ -579,7 +581,7 @@
               .tema2-link
                 .row.mb-5.justify-content-center
                   .col-lg-7
-                    a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                    a.anexo.mb-4.mb-lg-0(href="https://color.adobe.com/es/create/color-wheel" target="_blank")
                       .anexo__icono
                         img(src="@/assets/curso/tema2/img09.svg")
                       .anexo__texto
@@ -635,7 +637,7 @@
     p.mb-4 En cuanto al ambiente frio y cálido, se trabaja al modificar algunos parámetros de las luces y el background, esto permite crear una tonalidad ambientada hacia los tonos fríos o cálidos, de acuerdo con lo que se tenga planteado para cada una de las escenas. En el siguiente video, se podrá observar con más detalle este proceso:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/eI5jwo-ZLPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador 
 
     #t_1_3.titulo-segundo.color-acento-contenido
@@ -645,7 +647,7 @@
       .col-lg-7.d-flex.align-items-center  
         .row.justify-content-center.tema1-row2
           .col-lg-9.my-5
-            p.mb-0 El triángulo de iluminación es el <i>set</i> adecuado para iluminar una escena y conseguir resultados efectivos. Este esquema situaría la luz principal, una luz de relleno y la contraluz que se complementan entre sí. La luz principal se sitúa hacia el objeto, la luz de relleno va al lado opuesto, con una intensidad más baja y la contraluz se sitúa por detrás, para darle profundidad a la escena; como puede verse en la siguiente figura:
+            p.mb-0 El triángulo de iluminación es el <i>set</i> adecuado para iluminar una escena y conseguir resultados efectivos. Este esquema situaría la luz principal, una luz de relleno y la contraluz que se complementan entre sí. La luz principal se sitúa hacia el objeto, la luz de relleno va al lado opuesto, con una intensidad más baja y la contraluz se sitúa por detrás, para darle profundidad a la escena; como puede verse en la siguiente figura:      
       .col-lg-5
         .row.justify-content-center  
           .col-lg-7
@@ -657,13 +659,13 @@
 
     p.mb-4 Se profundizará en este concepto aplicándolo en <i>Blender</i>, sobre un personaje y un escenario. Por ello, a continuación, le se invita a consultar el documento enlazado en donde se podrá ampliar más información al respecto, además, en el video que se encuentra a continuación brinda más información sobre este proceso:
     figure.mb-4
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video            
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/Ug4XECwsp_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-end
       .col-lg-3
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/triangulo de iluminacion.pdf')" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-doc.svg")
+            img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p <b>Triángulo de iluminación.</b>
     Separador 
@@ -687,27 +689,24 @@
     p.mb-4 Se invita a consultar el video que contiene el paso a paso del proceso: 
 
     figure.mb-4
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video        
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/giNK4WRErqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     
     .row.justify-content-end
       .col-lg-9
         p.mb-0 De igual manera, el documento que se ha dispuesto para ampliar la información al respecto del reloj de iluminación:
       .col-lg-3
-        a.anexo.mb-0(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Reloj de Iluminación.pdf')" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-doc.svg")
+            img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p <b>Reloj de Iluminación</b>
 
     Separador 
 
     #t_1_5.titulo-segundo.color-acento-contenido
-      h2 1.5  Propiedades de la luz
-    
-    p.mb-4 Para dar inicio a este tema vale la pena resolver antes la pregunta: ¿qué es la luz? Se puede definir la luz como un fenómeno electromagnético que se propaga en forma de ondas que pueden ser percibidas por la visión, utilizando como herramienta los ojos; el reflejo de estas ondas ilumina las superficies en el entorno permitiendo ver los objetos y distinguir los colores alrededor.
-    p.mb-5 Entre las propiedades más importantes de la luz, están:
+      h2 1.5  Propiedades de la luz      
 
     div.tema1-row3.pt-5.mb-5
       .row.justify-content-center
@@ -833,7 +832,7 @@
 
       .tarjeta.tarjeta.color-primario.p-5(titulo="Parámetros de reflexión y refracción en animación 3D")
         h4.mb-4 Parámetros de reflexión y refracción en animación 3D
-        p.mb-4 La mayoría de los programas utilizados para la animación 3D manejan valores de reflexión y refracción para la creación de materiales y texturas. El nivel de reflexión se manipula con un rango de entre 0 y 1, si un material tiene un valor de reflexión de 0 este será mate, en cambio si tiene un valor de 1 refleja todos los objetos que se encuentren en su entorno. Otro valor que se debe tener en cuenta es el glossiness, que usa el mismo rango que el valor anterior, cuando su valor es 1 entonces la superficie tendrá un reflejo totalmente nítido; sin embargo, en 0 los reflejos se dispersaron y se verá borroso:
+        p.mb-4 La mayoría de los programas utilizados para la animación 3D manejan valores de reflexión y refracción para la creación de materiales y texturas. El nivel de reflexión se manipula con un rango de entre 0 y 1, si un material tiene un valor de reflexión de 0 este será mate, en cambio si tiene un valor de 1 refleja todos los objetos que se encuentren en su entorno. Otro valor que se debe tener en cuenta es el <i>glossiness</i>, que usa el mismo rango que el valor anterior, cuando su valor es 1 entonces la superficie tendrá un reflejo totalmente nítido; sin embargo, en 0 los reflejos se dispersaron y se verá borroso:
         .row.justify-content-center.mb-0  
           .col-lg-12
             .row.justify-content-center  

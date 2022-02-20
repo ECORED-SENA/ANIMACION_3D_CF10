@@ -25,7 +25,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-7.d-flex.align-items-center  
-        .row.justify-content-center.tema1-row2
+        .row.justify-content-center.tema2-row111
           .col-lg-11.my-5
             p.mb-4 Se trata de una técnica que, a través de algoritmos, calcula y modela tanto la iluminación proveniente de una fuente de luz que golpea directamente las superficies de los objetos (iluminación directa); como la forma en que la luz rebota desde una superficie hacia otras (iluminación indirecta), simulando todos los efectos generados por la reflexión de la luz sobre los objetos presentes, logrando que una escena se vea mucho más natural y fotorrealista. Ahora, se verán algunos ejemplos:
             p.mb-0 Un ejemplo clásico es el color bleeding, que se produce cuando la luz choca contra una superficie y transfiere su color hacia otras superficies cercanas (figura 9).
@@ -54,7 +54,7 @@
     Separador 
 
     #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2 Stopmotion
+      h2 2.2 Tipos de luces
 
     div.tema1-row3.mb-5
       .row.justify-content-center
@@ -64,47 +64,48 @@
 
           p.mb-0 <i>Blender</i> define cinco tipos básicos de fuentes de luz, que comparten una serie de parámetros comunes estas son: <i>sun</i>, <i>point</i>, <i>spot</i>, área y <i>background</i>. Además, cada tipo de fuente de luz tiene un comportamiento definido y varios parámetros propios. La representación final de la superficie vendrá definida dependiendo del tipo de material y su comportamiento con la luz, por lo que los parámetros del material deberán definirse conjuntamente con los de las fuentes de luz.
 
-    LineaTiempoD.color-primario
-      .row.justify-content-center(numero="a" titulo="<i>SUN</i>")
-        .col-lg-12
-          p.mb-4 Este tipo de luz brinda una iluminación constante en una ubicación lejana, utilizada principalmente para entornos abiertos. La dirección de la luz se puede girar, lo que permite simular la posición de la luz solar.<br>Se invita a observar el siguiente video para mayor información: 
-          figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .tema2-LineaTiempoD
+      LineaTiempoD.color-primario
+        .row.justify-content-center(numero="a" titulo="<i>SUN</i>")
+          .col-lg-12
+            p.mb-4 Este tipo de luz brinda una iluminación constante en una ubicación lejana, utilizada principalmente para entornos abiertos. La dirección de la luz se puede girar, lo que permite simular la posición de la luz solar.<br>Se invita a observar el siguiente video para mayor información: 
+            figure
+            .video            
+              iframe(width="1255" height="706" src="https://www.youtube.com/embed/dsGDiXl7nH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-      .row.justify-content-center(numero="b" titulo="<i>POINT</i>")
-        .col-lg-12
-          p.mb-4 Aquí la luz es omnidireccional, irradia la misma cantidad de luz en 360 grados disminuyendo su intensidad entre más lejos se encuentre de los objetos. Es decir, que los objetos empiezan a oscurecer.<br>Se invita a observar el siguiente video para mayor información: 
-          figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .row.justify-content-center(numero="b" titulo="<i>POINT</i>")
+          .col-lg-12
+            p.mb-4 Aquí la luz es omnidireccional, irradia la misma cantidad de luz en 360 grados disminuyendo su intensidad entre más lejos se encuentre de los objetos. Es decir, que los objetos empiezan a oscurecer.<br>Se invita a observar el siguiente video para mayor información: 
+            figure
+            .video            
+              iframe(width="1255" height="706" src="https://www.youtube.com/embed/dtPkirIuju4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-      .row.justify-content-center(numero="c" titulo="<i>SPOT</i>")
-        .col-lg-12
-          p.mb-4 Esta luz se destaca por el tipo de forma de cono que tiene, ya que solo dentro de él se emite la luz. se puede ajustar el radio, para adquirir sombras más suaves.<br>Se invita a observar el siguiente video para más información al respecto: 
-          figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .row.justify-content-center(numero="c" titulo="<i>SPOT</i>")
+          .col-lg-12
+            p.mb-4 Esta luz se destaca por el tipo de forma de cono que tiene, ya que solo dentro de él se emite la luz. se puede ajustar el radio, para adquirir sombras más suaves.<br>Se invita a observar el siguiente video para más información al respecto: 
+            figure
+            .video            
+              iframe(width="1255" height="706" src="https://www.youtube.com/embed/uU-Jv-xpsgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-      .row.justify-content-center(numero="d" titulo="ÁREA")
-        .col-lg-12
-          p.mb-4 Este tipo de luz simula la que emite un televisor, este tipo de luz produce sombras con bordes suaves, a diferencia del otro tipo de luces artificiales, que tiene sombras duras. Su forma principal es la de una cuadrícula, la cual se puede cambiar, por otro tipo de forma.<br>Se invita a observar el siguiente video para mayor información: 
-          figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .row.justify-content-center(numero="d" titulo="ÁREA")
+          .col-lg-12
+            p.mb-4 Este tipo de luz simula la que emite un televisor, este tipo de luz produce sombras con bordes suaves, a diferencia del otro tipo de luces artificiales, que tiene sombras duras. Su forma principal es la de una cuadrícula, la cual se puede cambiar, por otro tipo de forma.<br>Se invita a observar el siguiente video para mayor información: 
+            figure
+            .video            
+              iframe(width="1255" height="706" src="https://www.youtube.com/embed/2Zx4403CuFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-      .row.justify-content-center(numero="e" titulo="<i>BACKGROUN</i>")
-        .col-lg-12
-          p.mb-4 Este tipo de luz de ambiente que ya viene predefinido en <i>Blender</i>, el cual puede cambiar su color, valores y la fuerza de la luz, este es de tipo infinito, no tiene una posición de la luz, sino que ambienta todo el escenario por igual<br>Se invita a observar el siguiente video para mayor información: 
-          figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .row.justify-content-center(numero="e" titulo="<i>BACKGROUN</i>")
+          .col-lg-12
+            p.mb-4 Este tipo de luz de ambiente que ya viene predefinido en <i>Blender</i>, el cual puede cambiar su color, valores y la fuerza de la luz, este es de tipo infinito, no tiene una posición de la luz, sino que ambienta todo el escenario por igual<br>Se invita a observar el siguiente video para mayor información: 
+            figure
+            .video            
+              iframe(width="1255" height="706" src="https://www.youtube.com/embed/wOr1nzi8uFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador 
 
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3  Tipos de nodos para iluminar
 
-    div.tema2-fondo3.mb-5
+    div.tema2-fondo31.mb-5
       .row.justify-content-center
         .col-10.pt-5
           figure.mb-5
@@ -112,51 +113,52 @@
 
           p.mb-0 Una de las incorporaciones más potentes de <i>Blender</i>, en sus últimas versiones, corresponde al sistema de nodos de composición. Es de recordar que por medio de los nodos se pueden aplicar diferentes ajustes a los elementos de la escena (que se generan por capas de <i>render</i>), así hay un control preciso sobre el resultado final, además de hacer optimizaciones sobre diferentes capas. Entre estos nodos para iluminar se tienen los siguientes:
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-      .row.justify-content-center(titulo="<i>Sky</i> <i>Texture</i>")
-        .col-lg-11
-          p.mb-5 Es un tipo de textura que simula una iluminación solar y ambiental en la que se pueden modificar varios parámetros, como posición del sol respecto al horizonte, rotación en el mundo, entre otros valiosos ajustes.
-          .row.justify-content-center
-            .col-lg-7
-              figure.mb-0
-                img(src='@/assets/curso/tema2/img06.png') 
+    .tema2-AcordionA
+      AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+        .row.justify-content-center(titulo="<i>Sky</i> <i>Texture</i>")
+          .col-lg-11
+            p.mb-5 Es un tipo de textura que simula una iluminación solar y ambiental en la que se pueden modificar varios parámetros, como posición del sol respecto al horizonte, rotación en el mundo, entre otros valiosos ajustes.
+            .row.justify-content-center
+              .col-lg-7
+                figure.mb-0
+                  img(src='@/assets/curso/tema2/img06.png') 
 
-      .row.justify-content-center(titulo="<i>Volume</i> <i>Scatter</i>")
-        .col-lg-11
-          p.mb-5 Permite que la luz pase a través del volumen. El uso típico sería añadir niebla a una escena. También se puede utilizar con el nodo de absorción de volumen para crear humo.
-          .row.justify-content-center
-            .col-lg-7
-              figure.mb-0
-                img(src='@/assets/curso/tema2/img07.png') 
+        .row.justify-content-center(titulo="<i>Volume</i> <i>Scatter</i>")
+          .col-lg-11
+            p.mb-5 Permite que la luz pase a través del volumen. El uso típico sería añadir niebla a una escena. También se puede utilizar con el nodo de absorción de volumen para crear humo.
+            .row.justify-content-center
+              .col-lg-7
+                figure.mb-0
+                  img(src='@/assets/curso/tema2/img07.png') 
 
-      .row.justify-content-center(titulo="<i>Emission</i> <i>Shader</i>  ")
-        .col-lg-11
-          p.mb-5 Este ayuda a generar en los objetos una iluminación propia, la cual tiene la característica de ser suave y potente.
-          .row.justify-content-center
-            .col-lg-7
-              figure.mb-0
-                img(src='@/assets/curso/tema2/img08.png') 
+        .row.justify-content-center(titulo="<i>Emission</i> <i>Shader</i>  ")
+          .col-lg-11
+            p.mb-5 Este ayuda a generar en los objetos una iluminación propia, la cual tiene la característica de ser suave y potente.
+            .row.justify-content-center
+              .col-lg-7
+                figure.mb-0
+                  img(src='@/assets/curso/tema2/img08.png') 
 
     p.mb-5 Con el fin de centrar un poco más en aspectos relacionados con los tipos de nodos para iluminar, se  invita a revisar los siguientes videos que son de interés sobre el tema que se está tratando.
     
     .row.justify-content-center
       .col-lg-3
         .tema2-link
-          a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=a8yyhz6u_iA" target="_blank")
             .anexo__icono
               img(src="@/assets/curso/tema2/img09.svg")
             .anexo__texto
               p <b>Video.</b> <i>Sky</i> <i>Texture</i>
       .col-lg-3
         .tema2-link
-          a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=_5Pt0QmbROs" target="_blank")
             .anexo__icono
               img(src="@/assets/curso/tema2/img09.svg")
             .anexo__texto
               p <b>Video.</b> <i>Volume</i> <i>Scatter</i>
       .col-lg-3
         .tema2-link
-          a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=hv7dWIwZQb4" target="_blank")
             .anexo__icono
               img(src="@/assets/curso/tema2/img09.svg")
             .anexo__texto
@@ -204,8 +206,8 @@
     p.mb-4 En el siguiente video se ofrece más información sobre la iluminación e imagen de alto rango dinámico:
 
     figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video      
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/tlkxkvMpAcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador 
 
@@ -253,8 +255,8 @@
           .row.justify-content-center  
             .col-lg-10              
               figure.mb-0
-                .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                .video                  
+                  iframe(width="1255" height="706" src="https://www.youtube.com/embed/h2Z11am_4S4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
     Separador 
 
