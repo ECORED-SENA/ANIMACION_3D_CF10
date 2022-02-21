@@ -26,28 +26,28 @@
               .row.justify-content-center.mb-5
                 .col-lg-3.d-flex
                   .tema2-link.d-flex(style="width:100%")
-                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=kdPnDqw1auA" target="_blank")
                       .anexo__icono
                         img(src="@/assets/curso/tema2/img09.svg")
                       .anexo__texto
                         p <b>Video.</b>  <i>Sampling ambient occlusion</i>
                 .col-lg-3.d-flex
                   .tema2-link.d-flex(style="width:100%")
-                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=kfXzucDFPyg" target="_blank")
                       .anexo__icono
                         img(src="@/assets/curso/tema2/img09.svg")
                       .anexo__texto
                         p <b>Video.</b>  <i>bloom</i>
                 .col-lg-3.d-flex
                   .tema2-link.d-flex(style="width:100%")
-                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=YszU9bIHw0s" target="_blank")
                       .anexo__icono
                         img(src="@/assets/curso/tema2/img09.svg")
                       .anexo__texto
                         p <b>Video.</b>  <i>Depth of field</i>
                 .col-lg-3.d-flex
                   .tema2-link.d-flex(style="width:100%")
-                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=17GZtegkyDE" target="_blank")
                       .anexo__icono
                         img(src="@/assets/curso/tema2/img09.svg")
                       .anexo__texto
@@ -56,7 +56,7 @@
               p.mb-4 Igualmente, se ha dispuesto de un documento, en donde podrá consultar el paso a paso correspondiente:      
               .row.justify-content-end.mb-4
                 .col-lg-3
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.anexo.mb-4(:href="obtenerLink('/downloads/Motores de render.pdf')" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-doc.svg")
                     .anexo__texto
@@ -66,28 +66,28 @@
               .row.justify-content-center.mb-5
                 .col-lg-3.d-flex
                   .tema2-link.d-flex(style="width:100%")
-                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=tfCwiep1tqk&ab_channel=BlenderRookie" target="_blank")
                       .anexo__icono
                         img(src="@/assets/curso/tema2/img09.svg")
                       .anexo__texto
                         p <b>Video.</b>  Youtube fuente canal <i>Blender</i> <i>Rookie</i>
                 .col-lg-3.d-flex
                   .tema2-link.d-flex(style="width:100%")
-                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=awowN6uZ-X8&ab_channel=BlenderSecrets" target="_blank")
                       .anexo__icono
                         img(src="@/assets/curso/tema2/img09.svg")
                       .anexo__texto
                         p <b>Video.</b>  Youtube fuente canal <i>blender secrets</i>
                 .col-lg-3.d-flex
                   .tema2-link.d-flex(style="width:100%")
-                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=t0jdE3dhrdo&ab_channel=Cinematix" target="_blank")
                       .anexo__icono
                         img(src="@/assets/curso/tema2/img09.svg")
                       .anexo__texto
                         p <b>Video.</b>  Youtube fuente canal Cinematix
                 .col-lg-3.d-flex
                   .tema2-link.d-flex(style="width:100%")
-                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=osVFjcNS69k&ab_channel=Blendtuts-ES" target="_blank")
                       .anexo__icono
                         img(src="@/assets/curso/tema2/img09.svg")
                       .anexo__texto
@@ -101,14 +101,14 @@
                       .row.justify-content-center.mb-4
                         .col-lg-6.d-flex
                           .tema3-link.d-flex(style="width:100%")
-                            a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                            a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=tfCwiep1tqk&ab_channel=BlenderRookie" target="_blank")
                               .anexo__icono
                                 img(src="@/assets/curso/tema3/img03.svg")
                               .anexo__texto
                                 p <b>Video.</b>  Youtube fuente canal <i>Blender</i> <i>Rookie</i>
                         .col-lg-6.d-flex
                           .tema3-link.d-flex(style="width:100%")
-                            a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                            a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=awowN6uZ-X8&ab_channel=BlenderSecrets" target="_blank")
                               .anexo__icono
                                 img(src="@/assets/curso/tema3/img03.svg")
                               .anexo__texto
@@ -117,14 +117,14 @@
                       .row.justify-content-center.mb-0
                         .col-lg-6.d-flex
                           .tema3-link.d-flex(style="width:100%")
-                            a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                            a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=t0jdE3dhrdo&ab_channel=Cinematix" target="_blank")
                               .anexo__icono
                                 img(src="@/assets/curso/tema3/img03.svg")
                               .anexo__texto
                                 p <b>Video.</b>  Youtube fuente canal Cinematix
                         .col-lg-6.d-flex
                           .tema3-link.d-flex(style="width:100%")
-                            a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                            a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=osVFjcNS69k&ab_channel=Blendtuts-ES" target="_blank")
                               .anexo__icono
                                 img(src="@/assets/curso/tema3/img03.svg")
                               .anexo__texto
@@ -142,7 +142,7 @@
                       .row.justify-content-center.mb-4
                         .col-lg-6.d-flex
                           .tema3-link.d-flex(style="width:100%")
-                            a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                            a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=bnqW7Ga6H2U&ab_channel=Blendtuts-ES" target="_blank")
                               .anexo__icono
                                 img(src="@/assets/curso/tema3/img03.svg")
                               .anexo__texto

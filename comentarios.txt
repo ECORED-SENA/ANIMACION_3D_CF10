@@ -4,3 +4,10 @@ H11: Se sugiere escribir "espontáneo".
 H12: Se recomienda tildar "Armonía" "Cálido"
 H13: Se recomienda tildar "Malévolo" 
 H19: Se sugiere agregar la imagen recomendada en el guion (gif)
+
+Para revisor
+H34: "Se sugiere eliminar la imagen tachada." Debo eliminar la imagen de fondo? Solo el titulo? Toda la seccion?
+Por ahora se ha eliminado unicamente el titulo, ya que en el hallazgo solo el titulo estaba tachado.
+H37: Actualizar CRÉDITOS 
+
+

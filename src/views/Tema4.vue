@@ -24,21 +24,20 @@
 
     div.tema3-fondo10.py-4.mb-5
               .row.justify-content-center
-                .col-lg-8.ps-5
-                  p.mb-4 <b>Motores <i>render</i></b>
+                .col-lg-8.ps-5                  
                   p.mb-5 A continuación, se presentan varios videos que explican cómo generar estos efectos, así mismo se invita a consultar el documento enlazado en donde encontrará información al respecto:
                   div.ps-4.pe-5
                     .row.justify-content-center.mb-4
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
-                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=46CEvGZubds" target="_blank")
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
                               p <b>Video.</b>  Nubes
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
-                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=T8BQoGwFsoQ" target="_blank")
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
@@ -47,14 +46,14 @@
                     .row.justify-content-center.mb-4
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
-                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=UO7uE5-4m4Y" target="_blank")
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
                               p <b>Video.</b>  Fuego y humo
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
-                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=UO7uE5-4m4Y" target="_blank")
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
@@ -63,16 +62,16 @@
                     .row.justify-content-center.mb-0
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
-                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=GsobhZ_rxx8" target="_blank")
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
                               p <b>Video.</b>  Neblina
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
-                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                          a.anexo.mb-4.mb-lg-0(style="width:100%" :href="obtenerLink('/downloads/niebla.pdf')" target="_blank")
                             .anexo__icono
-                              img(src="@/assets/template/icono-doc.svg")
+                              img(src="@/assets/template/icono-pdf.svg")
                             .anexo__texto
                               p niebla
 
@@ -92,21 +91,20 @@
                 td.text-center ANEXO 1 
                 td.text-center <i>Eleven - Rig</i> <i>Blender</i>
                 td.text-center.d-flex.justify-content-center
-                  a(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")                           
+                  a(:href="obtenerLink('/downloads/Orient_custom_shape.zip')" target="_blank")                           
                     img(style="width: 36px" src="@/assets/template/icono-pdf.svg")
 
               tr
                 td.text-center ANEXO 2
                 td.text-center Addon - <i>Blender</i>
                 td.text-center.d-flex.justify-content-center
-                  a(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")                           
+                  a(:href="obtenerLink('/downloads/Eleven.blend')" target="_blank")                           
                     img(style="width: 36px" src="@/assets/template/icono-pdf.svg")
-
               tr
                 td.text-center ANEXO 3 
                 td.text-center Script_ui.py
                 td.text-center.d-flex.justify-content-center
-                  a(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")                           
+                  a(:href="obtenerLink('/downloads/script_ui.py')" target="_blank")                           
                     img(style="width: 36px" src="@/assets/template/icono-pdf.svg")
 
     separador
