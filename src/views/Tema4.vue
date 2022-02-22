@@ -22,7 +22,7 @@
 
           p.mb-0 Los sistemas de partículas en <i>Blender</i> sirven para generar efectos visuales destinados a simular efectos como fuego, lluvia, humo etc., y combinarse entre ellos para llevar a cabo un proyecto audiovisual mediante la configuración de los parámetros necesarios para que se adapten a la escena con casos prácticos, como la creación de fuentes de fuego, generación de nubes y lluvia, entre otros. 
 
-    div.tema3-fondo10.py-4.mb-5
+    div.tema3-fondo10.py-4
               .row.justify-content-center
                 .col-lg-8.ps-5                  
                   p.mb-5 A continuación, se presentan varios videos que explican cómo generar estos efectos, así mismo se invita a consultar el documento enlazado en donde encontrará información al respecto:
@@ -53,11 +53,11 @@
                               p <b>Video.</b>  Fuego y humo
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
-                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=UO7uE5-4m4Y" target="_blank")
+                          a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=sM0mQmKl-zY" target="_blank")
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
-                              p <b>Video.</b>  Explosion
+                              p <b>Video.</b>  Explosión
 
                     .row.justify-content-center.mb-0
                       .col-lg-6.d-flex
@@ -73,40 +73,9 @@
                             .anexo__icono
                               img(src="@/assets/template/icono-pdf.svg")
                             .anexo__texto
-                              p niebla
+                              p Niebla
 
-    h4.mb-4 Archivos de anexos
-
-    .row.justify-content-center.mb-0
-      .col-lg-10
-        .tabla-a.color-acento-botones.mb-5 
-          table    
-            thead
-              tr
-                th ANEXO GUIÓN
-                th RECURSO
-                th ARCHIVO
-            tbody
-              tr
-                td.text-center ANEXO 1 
-                td.text-center <i>Eleven - Rig</i> <i>Blender</i>
-                td.text-center.d-flex.justify-content-center
-                  a(:href="obtenerLink('/downloads/Orient_custom_shape.zip')" target="_blank")                           
-                    img(style="width: 36px" src="@/assets/template/icono-pdf.svg")
-
-              tr
-                td.text-center ANEXO 2
-                td.text-center Addon - <i>Blender</i>
-                td.text-center.d-flex.justify-content-center
-                  a(:href="obtenerLink('/downloads/Eleven.blend')" target="_blank")                           
-                    img(style="width: 36px" src="@/assets/template/icono-pdf.svg")
-              tr
-                td.text-center ANEXO 3 
-                td.text-center Script_ui.py
-                td.text-center.d-flex.justify-content-center
-                  a(:href="obtenerLink('/downloads/script_ui.py')" target="_blank")                           
-                    img(style="width: 36px" src="@/assets/template/icono-pdf.svg")
-
+    
     separador
 </template>
 

@@ -773,7 +773,7 @@ div
 
   h3.titulo-tercero Cajón texto color G
   .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-    .bloque-texto-g__img(
+    .bloque-texto-g__img.border(
       :style="{'background-image': `url(${require('@/assets/curso/img.jpg')})`}"
     )
     .bloque-texto-g__texto.p-4

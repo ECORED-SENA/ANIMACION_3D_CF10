@@ -168,12 +168,13 @@
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4  <i>High Dinamic Range Image</i> (HDRI) o imagen de alto rango dinámico 
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema2/img10.svg')})`}"
-      )
-      .bloque-texto-g__texto.p-5
-        p.mb-0 La mayoría de las fotos digitales, imágenes y renderizados contienen 24 <i>bits</i> por pixel, almacenando una gama de colores RGB, esto significa que pueden admitir hasta 16.777.216 colores diferentes, y se guardan en formatos bitmap como BMP, TGA, PNG y JPEG; por otra parte, generalmente los dispositivos que se usan para ver este tipo de imágenes como celulares, tablets, impresoras y computadores muestran una pequeña parte de la luz y colores (hasta 16 millones), en comparación con la cantidad real que se puede percibir. Por esta razón, tanto las imágenes tipo bitmap como los dispositivos usados para decodificarlas son considerados formatos de bajo rango dinámico o SDR (<i>Standard Dynamic Range</i> en inglés).
+    .tema-2-bloque
+      .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/tema2/img10.svg')})`}"
+        )
+        .bloque-texto-g__texto.p-5
+          p.mb-0 La mayoría de las fotos digitales, imágenes y renderizados contienen 24 <i>bits</i> por pixel, almacenando una gama de colores RGB, esto significa que pueden admitir hasta 16.777.216 colores diferentes, y se guardan en formatos bitmap como BMP, TGA, PNG y JPEG; por otra parte, generalmente los dispositivos que se usan para ver este tipo de imágenes como celulares, tablets, impresoras y computadores muestran una pequeña parte de la luz y colores (hasta 16 millones), en comparación con la cantidad real que se puede percibir. Por esta razón, tanto las imágenes tipo bitmap como los dispositivos usados para decodificarlas son considerados formatos de bajo rango dinámico o SDR (<i>Standard Dynamic Range</i> en inglés).
 
     div(style="position:relative")
         div(style="position:absolute; top:0px; width:100%; height:100%")

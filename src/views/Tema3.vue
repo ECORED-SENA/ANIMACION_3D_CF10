@@ -61,37 +61,9 @@
                       img(src="@/assets/template/icono-doc.svg")
                     .anexo__texto
                       p <b>Motores de <i>render</i></b>
-              p.mb-4 Se puedes consultar los siguientes videos, en donde hallarás más información al respecto, en los siguientes enlaces:
+              //- p.mb-4 Se puedes consultar los siguientes videos, en donde hallarás más información al respecto, en los siguientes enlaces:
 
-              .row.justify-content-center.mb-5
-                .col-lg-3.d-flex
-                  .tema2-link.d-flex(style="width:100%")
-                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=tfCwiep1tqk&ab_channel=BlenderRookie" target="_blank")
-                      .anexo__icono
-                        img(src="@/assets/curso/tema2/img09.svg")
-                      .anexo__texto
-                        p <b>Video.</b>  Youtube fuente canal <i>Blender</i> <i>Rookie</i>
-                .col-lg-3.d-flex
-                  .tema2-link.d-flex(style="width:100%")
-                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=awowN6uZ-X8&ab_channel=BlenderSecrets" target="_blank")
-                      .anexo__icono
-                        img(src="@/assets/curso/tema2/img09.svg")
-                      .anexo__texto
-                        p <b>Video.</b>  Youtube fuente canal <i>blender secrets</i>
-                .col-lg-3.d-flex
-                  .tema2-link.d-flex(style="width:100%")
-                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=t0jdE3dhrdo&ab_channel=Cinematix" target="_blank")
-                      .anexo__icono
-                        img(src="@/assets/curso/tema2/img09.svg")
-                      .anexo__texto
-                        p <b>Video.</b>  Youtube fuente canal Cinematix
-                .col-lg-3.d-flex
-                  .tema2-link.d-flex(style="width:100%")
-                    a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=osVFjcNS69k&ab_channel=Blendtuts-ES" target="_blank")
-                      .anexo__icono
-                        img(src="@/assets/curso/tema2/img09.svg")
-                      .anexo__texto
-                        p <b>Video.</b>  Youtube fuente: Blendtuts-ES
+              
               div.tema3-fondo10.py-4
                 .row.justify-content-center
                   .col-lg-8.ps-5

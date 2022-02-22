@@ -1,13 +1,20 @@
-Para el diseñador:
-H8: Se sugiere agregar la imagen que haga referencia al texto.
-H11: Se sugiere escribir "espontáneo". 
-H12: Se recomienda tildar "Armonía" "Cálido"
-H13: Se recomienda tildar "Malévolo" 
-H19: Se sugiere agregar la imagen recomendada en el guion (gif)
+Segunda revision
 
-Para revisor
-H34: "Se sugiere eliminar la imagen tachada." Debo eliminar la imagen de fondo? Solo el titulo? Toda la seccion?
-Por ahora se ha eliminado unicamente el titulo, ya que en el hallazgo solo el titulo estaba tachado.
-H37: Actualizar CRÉDITOS 
+H8: Se remplaza la imagen
+H11: Se remplaza la imagen
+H12: Se remplaza la imagen
+H13: Se remplaza la imagen
+H16: Se elimina el punto
+H24: Se ajusta color y ubicacion de imagen y texto
+H30: Se elimina la seccion indicada
+H33: Se corrige ortografia y video correcto
+H35: Se elimina la seccion indicada
+H37: Se actuaizan los creditos
+
+Le falto corregir la palabra "Cálido" del H12 y el H19 tambien
+
+
+
+
 
 

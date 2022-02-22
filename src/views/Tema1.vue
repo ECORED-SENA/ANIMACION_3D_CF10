@@ -375,7 +375,7 @@
       .col-lg-10        
           .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
             .bloque-texto-g__img(
-              :style="{'background-image': `url(${require('@/assets/curso/tema1/img14.png')})`}"
+              :style="{'background-image': `url(${require('@/assets/curso/tema1/img55.png')})`}"
             )
             .bloque-texto-g__texto.px-4.py-5
               br
@@ -598,7 +598,7 @@
                           img(src='@/assets/curso/tema1/img30.svg') 
                       .col-lg-6
                         figure.mb-4
-                          img(src='@/assets/curso/tema1/img31.svg') 
+                          img(src='@/assets/curso/tema1/img56.svg') 
                     .row.mb-4
                       .col-lg-6
                         figure.mb-4
@@ -619,10 +619,10 @@
                     .row.mb-4
                       .col-lg-6
                         figure.mb-4
-                          img(src='@/assets/curso/tema1/img36.svg') 
+                          img(src='@/assets/curso/tema1/img57.svg') 
                       .col-lg-6
                         figure.mb-4
-                          img(src='@/assets/curso/tema1/img37.svg') 
+                          img(src='@/assets/curso/tema1/img58.svg') 
 
                 .row.justify-content-center
                   .col-lg-10  
@@ -632,7 +632,7 @@
                           img(src='@/assets/curso/tema1/img38.svg') 
                       .col-lg-6
                         figure.mb-4
-                          img(src='@/assets/curso/tema1/img39.svg') 
+                          img(src='@/assets/curso/tema1/img59.svg') 
       
     p.mb-4 En cuanto al ambiente frio y cálido, se trabaja al modificar algunos parámetros de las luces y el background, esto permite crear una tonalidad ambientada hacia los tonos fríos o cálidos, de acuerdo con lo que se tenga planteado para cada una de las escenas. En el siguiente video, se podrá observar con más detalle este proceso:
     figure
@@ -667,7 +667,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p <b>Triángulo de iluminación.</b>
+            p <b>Triángulo de iluminación</b>
     Separador 
 
     #t_1_4.titulo-segundo.color-acento-contenido
