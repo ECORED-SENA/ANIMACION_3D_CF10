@@ -1,17 +1,10 @@
 Segunda revision
 
-H8: Se remplaza la imagen
-H11: Se remplaza la imagen
-H12: Se remplaza la imagen
-H13: Se remplaza la imagen
-H16: Se elimina el punto
-H24: Se ajusta color y ubicacion de imagen y texto
-H30: Se elimina la seccion indicada
-H33: Se corrige ortografia y video correcto
-H35: Se elimina la seccion indicada
-H37: Se actuaizan los creditos
+H8: Se escala al diseñador
+H11: Se escala al diseñador
+H12: Se utiliza la nueva imagen proporcinada por el diseñador
+H19: Se utiliza la nueva imagen proporcinada por el diseñador
 
-Le falto corregir la palabra "Cálido" del H12 y el H19 tambien
 
 
 

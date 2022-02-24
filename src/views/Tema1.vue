@@ -622,7 +622,7 @@
                           img(src='@/assets/curso/tema1/img57.svg') 
                       .col-lg-6
                         figure.mb-4
-                          img(src='@/assets/curso/tema1/img58.svg') 
+                          img(src='@/assets/curso/tema1/img60.svg') 
 
                 .row.justify-content-center
                   .col-lg-10  
@@ -813,9 +813,15 @@
               .col-lg-5
                 div.BorTit.mb-3         
                   p.mb-0 <b>Figura 6</b> Ejemplos de la refracción de la luz
-            figure.mb-0
-              img(src='@/assets/curso/tema1/img51.png')
-              figcaption Nota. Tomada de www.diferenciador.com
+            .row.justify-content-center.mb-4  
+              .col-lg-6                
+                figure.mb-0
+                  img(src='@/assets/curso/tema1/img62.svg')
+                  figcaption Nota. Tomada de www.diferenciador.com
+              .col-lg-6                
+                figure.mb-0
+                  img(src='@/assets/curso/tema1/img61.gif')
+                  
 
         p.mb-4 El fenómeno de refracción es especialmente útil para entender el funcionamiento de algunos instrumentos ópticos como lupas, lentes de microscopios o telescopios, los cuales cambian la trayectoria de la luz, la concentran y dan la sensación de aumentar el tamaño de las cosas.
         p.mb-5 Los fenómenos de reflexión y refracción pueden ocurrir simultáneamente cuando un haz de luz incide sobre la superficie de un cuerpo transparente, como, por ejemplo, el agua sobre la cual una parte de los rayos de luz se reflejan, mientras que otra parte se refracta. Esto mismo sucede cuando la luz atraviesa la córnea del ojo (la cual es transparente) para llegar hasta la retina (figura 7).
