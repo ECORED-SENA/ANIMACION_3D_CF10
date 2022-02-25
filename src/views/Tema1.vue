@@ -598,7 +598,7 @@
                           img(src='@/assets/curso/tema1/img30.svg') 
                       .col-lg-6
                         figure.mb-4
-                          img(src='@/assets/curso/tema1/img56.svg') 
+                          img(src='@/assets/curso/tema1/img63.svg') 
                     .row.mb-4
                       .col-lg-6
                         figure.mb-4
