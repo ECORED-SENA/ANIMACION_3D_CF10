@@ -416,77 +416,77 @@
               figure
                 img(src='@/assets/curso/tema1/img54.svg')                 
 
-            .tarjeta.p-3(x="15%" y="4%" numero="")
-              div.BorTitImg(style="border-left-color: #D6BE6F") 
-                h4.m-0 Dorado
-              div.BorTitImg.BorTitImg2 
-                p.mb-0 Opulencia
+            //- .tarjeta.p-3(x="15%" y="4%" numero="")
+            //-   div.BorTitImg(style="border-left-color: #D6BE6F") 
+            //-     h4.m-0 Dorado
+            //-   div.BorTitImg.BorTitImg2 
+            //-     p.mb-0 Opulencia
 
-            .tarjeta.p-3(x="15%" y="11%" numero="")
-              div.BorTitImg(style="border-left-color: #4D2311") 
-                h4.m-0 Marrón
-              div.BorTitImg.BorTitImg2 
-                p.mb-0 Profundidad o experiencia
+            //- .tarjeta.p-3(x="15%" y="11%" numero="")
+            //-   div.BorTitImg(style="border-left-color: #4D2311") 
+            //-     h4.m-0 Marrón
+            //-   div.BorTitImg.BorTitImg2 
+            //-     p.mb-0 Profundidad o experiencia
 
-            .tarjeta.p-3(x="15%" y="18%" numero="")
-              div.BorTitImg(style="border-left-color: #F4E703") 
-                h4.m-0 Amarillo
-              div.BorTitImg.BorTitImg2 
-                p.mb-0 Actitud positiva y alegría
+            //- .tarjeta.p-3(x="15%" y="18%" numero="")
+            //-   div.BorTitImg(style="border-left-color: #F4E703") 
+            //-     h4.m-0 Amarillo
+            //-   div.BorTitImg.BorTitImg2 
+            //-     p.mb-0 Actitud positiva y alegría
 
-            .tarjeta.p-3(x="15%" y="24%" numero="")
-              div.BorTitImg(style="border-left-color: #E42622") 
-                h4.m-0 Rojo
-              div.BorTitImg.BorTitImg2 
-                p.mb-0 Pasión o excitación
+            //- .tarjeta.p-3(x="15%" y="24%" numero="")
+            //-   div.BorTitImg(style="border-left-color: #E42622") 
+            //-     h4.m-0 Rojo
+            //-   div.BorTitImg.BorTitImg2 
+            //-     p.mb-0 Pasión o excitación
 
-            .tarjeta.p-3(x="15%" y="31%" numero="")
-              div.BorTitImg(style="border-left-color: #EB007F") 
-                h4.m-0 Rosa
-              div.BorTitImg.BorTitImg2 
-                p.mb-0 Feminidad
+            //- .tarjeta.p-3(x="15%" y="31%" numero="")
+            //-   div.BorTitImg(style="border-left-color: #EB007F") 
+            //-     h4.m-0 Rosa
+            //-   div.BorTitImg.BorTitImg2 
+            //-     p.mb-0 Feminidad
 
-            .tarjeta.p-3(x="15%" y="38%" numero="")
-              div.BorTitImg(style="border-left-color: #C5C5C5") 
-                h4.m-0 Plata
-              div.BorTitImg.BorTitImg2 
-                p.mb-0 Intelectualidad
+            //- .tarjeta.p-3(x="15%" y="38%" numero="")
+            //-   div.BorTitImg(style="border-left-color: #C5C5C5") 
+            //-     h4.m-0 Plata
+            //-   div.BorTitImg.BorTitImg2 
+            //-     p.mb-0 Intelectualidad
 
-            .tarjeta.p-3(x="15%" y="45%" numero="")
-              div.BorTitImg(style="border-left-color: #029BDD") 
-                h4.m-0 Azul
-              div.BorTitImg.BorTitImg2 
-                p.mb-0 Tristeza o depresión
+            //- .tarjeta.p-3(x="15%" y="45%" numero="")
+            //-   div.BorTitImg(style="border-left-color: #029BDD") 
+            //-     h4.m-0 Azul
+            //-   div.BorTitImg.BorTitImg2 
+            //-     p.mb-0 Tristeza o depresión
             
-            .tarjeta.p-3(x="15%" y="51.3%" numero="")
-              div.BorTitImg(style="border-left-color: #5DAE89") 
-                h4.m-0 Verde
-              div.BorTitImg.BorTitImg2 
-                p.mb-0 Renovación o vida.
+            //- .tarjeta.p-3(x="15%" y="51.3%" numero="")
+            //-   div.BorTitImg(style="border-left-color: #5DAE89") 
+            //-     h4.m-0 Verde
+            //-   div.BorTitImg.BorTitImg2 
+            //-     p.mb-0 Renovación o vida.
 
-            .tarjeta.p-3(x="15%" y="58.5%" numero="")
-              div.BorTitImg(style="border-left-color: #7D2283") 
-                h4.m-0 Violeta
-              div.BorTitImg.BorTitImg2 
-                p.mb-0 Espiritualidad
+            //- .tarjeta.p-3(x="15%" y="58.5%" numero="")
+            //-   div.BorTitImg(style="border-left-color: #7D2283") 
+            //-     h4.m-0 Violeta
+            //-   div.BorTitImg.BorTitImg2 
+            //-     p.mb-0 Espiritualidad
 
-            .tarjeta.p-3(x="15%" y="65%" numero="")
-              div.BorTitImg(style="border-left-color: #747476") 
-                h4.m-0 Gris
-              div.BorTitImg.BorTitImg2 
-                p.mb-0 Neutralidad y serenidad
+            //- .tarjeta.p-3(x="15%" y="65%" numero="")
+            //-   div.BorTitImg(style="border-left-color: #747476") 
+            //-     h4.m-0 Gris
+            //-   div.BorTitImg.BorTitImg2 
+            //-     p.mb-0 Neutralidad y serenidad
 
-            .tarjeta.p-3(x="15%" y="72%" numero="")
-              div.BorTitImg(style="border-left-color: #E4E4E6") 
-                h4.m-0 Blanco
-              div.BorTitImg.BorTitImg2 
-                p.mb-0 Pureza
+            //- .tarjeta.p-3(x="15%" y="72%" numero="")
+            //-   div.BorTitImg(style="border-left-color: #E4E4E6") 
+            //-     h4.m-0 Blanco
+            //-   div.BorTitImg.BorTitImg2 
+            //-     p.mb-0 Pureza
 
-            .tarjeta.p-3(x="15%" y="79%" numero="")
-              div.BorTitImg(style="border-left-color: #000000") 
-                h4.m-0 Negro
-              div.BorTitImg.BorTitImg2 
-                p.mb-0 Elegancia          
+            //- .tarjeta.p-3(x="15%" y="79%" numero="")
+            //-   div.BorTitImg(style="border-left-color: #000000") 
+            //-     h4.m-0 Negro
+            //-   div.BorTitImg.BorTitImg2 
+            //-     p.mb-0 Elegancia          
 
     p.mb-5 Adicionalmente, puede conocer sobre la teoría del color y cómo se requiere de una referencia para mezclar los colores y conseguir un efecto en concreto: 
 
