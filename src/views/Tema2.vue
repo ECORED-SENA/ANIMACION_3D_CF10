@@ -8,7 +8,7 @@
         span 2
       h1 Iluminación 3D
 
-    div.tema2-fondo1.mb-5
+    div.tema2-fondo1
       .row.justify-content-center
         .col-10.pt-5
           figure.mb-5
@@ -25,12 +25,12 @@
 
     .row.justify-content-center.mb-5
       .col-lg-7.d-flex.align-items-center  
-        .row.justify-content-center.tema2-row111
+        .row.justify-content-center.tema1-row2
           .col-lg-11.my-5
             p.mb-4 Se trata de una técnica que, a través de algoritmos, calcula y modela tanto la iluminación proveniente de una fuente de luz que golpea directamente las superficies de los objetos (iluminación directa); como la forma en que la luz rebota desde una superficie hacia otras (iluminación indirecta), simulando todos los efectos generados por la reflexión de la luz sobre los objetos presentes, logrando que una escena se vea mucho más natural y fotorrealista. Ahora, se verán algunos ejemplos:
             p.mb-0 Un ejemplo clásico es el color bleeding, que se produce cuando la luz choca contra una superficie y transfiere su color hacia otras superficies cercanas (figura 9).
-      .col-lg-5
-        .row.justify-content-center  
+      .col-lg-5.ps-0
+        .row
           .col-lg-7
             div.BorTit.mb-3         
               p.mb-0 <b>Figura 9</b> Rebote de luz
@@ -60,46 +60,48 @@
       .row.justify-content-center
         .col-10.pt-5
           figure.mb-5
-            img(src='@/assets/curso/tema2/img16.svg') 
+            img(src='@/assets/curso/tema2/img16.png') 
 
           p.mb-0 <i>Blender</i> define cinco tipos básicos de fuentes de luz, que comparten una serie de parámetros comunes estas son: <i>sun</i>, <i>point</i>, <i>spot</i>, área y <i>background</i>. Además, cada tipo de fuente de luz tiene un comportamiento definido y varios parámetros propios. La representación final de la superficie vendrá definida dependiendo del tipo de material y su comportamiento con la luz, por lo que los parámetros del material deberán definirse conjuntamente con los de las fuentes de luz.
+    
+    div(:style="{'background-size': 'cover', 'background-image': `url(${require('@/assets/curso/tema2/img101.png')})`}")
 
-    .tema2-LineaTiempoD
-      LineaTiempoD.color-primario
-        .row.justify-content-center(numero="a" titulo="<i>SUN</i>")
-          .col-lg-12
-            p.mb-4 Este tipo de luz brinda una iluminación constante en una ubicación lejana, utilizada principalmente para entornos abiertos. La dirección de la luz se puede girar, lo que permite simular la posición de la luz solar.<br>Se invita a observar el siguiente video para mayor información: 
-            figure
-            .video            
-              iframe(width="1255" height="706" src="https://www.youtube.com/embed/dsGDiXl7nH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .tema2-LineaTiempoD
+        LineaTiempoD.color-primario
+          .row.justify-content-center(numero="a" titulo="<i>SUN</i>")
+            .col-lg-12
+              p.mb-4 Este tipo de luz brinda una iluminación constante en una ubicación lejana, utilizada principalmente para entornos abiertos. La dirección de la luz se puede girar, lo que permite simular la posición de la luz solar.<br>Se invita a observar el siguiente video para mayor información: 
+              figure
+              .video            
+                iframe(width="1255" height="706" src="https://www.youtube.com/embed/dsGDiXl7nH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-        .row.justify-content-center(numero="b" titulo="<i>POINT</i>")
-          .col-lg-12
-            p.mb-4 Aquí la luz es omnidireccional, irradia la misma cantidad de luz en 360 grados disminuyendo su intensidad entre más lejos se encuentre de los objetos. Es decir, que los objetos empiezan a oscurecer.<br>Se invita a observar el siguiente video para mayor información: 
-            figure
-            .video            
-              iframe(width="1255" height="706" src="https://www.youtube.com/embed/dtPkirIuju4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          .row.justify-content-center(numero="b" titulo="<i>POINT</i>")
+            .col-lg-12
+              p.mb-4 Aquí la luz es omnidireccional, irradia la misma cantidad de luz en 360 grados disminuyendo su intensidad entre más lejos se encuentre de los objetos. Es decir, que los objetos empiezan a oscurecer.<br>Se invita a observar el siguiente video para mayor información: 
+              figure
+              .video            
+                iframe(width="1255" height="706" src="https://www.youtube.com/embed/dtPkirIuju4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-        .row.justify-content-center(numero="c" titulo="<i>SPOT</i>")
-          .col-lg-12
-            p.mb-4 Esta luz se destaca por el tipo de forma de cono que tiene, ya que solo dentro de él se emite la luz. se puede ajustar el radio, para adquirir sombras más suaves.<br>Se invita a observar el siguiente video para más información al respecto: 
-            figure
-            .video            
-              iframe(width="1255" height="706" src="https://www.youtube.com/embed/uU-Jv-xpsgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          .row.justify-content-center(numero="c" titulo="<i>SPOT</i>")
+            .col-lg-12
+              p.mb-4 Esta luz se destaca por el tipo de forma de cono que tiene, ya que solo dentro de él se emite la luz. se puede ajustar el radio, para adquirir sombras más suaves.<br>Se invita a observar el siguiente video para más información al respecto: 
+              figure
+              .video            
+                iframe(width="1255" height="706" src="https://www.youtube.com/embed/uU-Jv-xpsgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-        .row.justify-content-center(numero="d" titulo="ÁREA")
-          .col-lg-12
-            p.mb-4 Este tipo de luz simula la que emite un televisor, este tipo de luz produce sombras con bordes suaves, a diferencia del otro tipo de luces artificiales, que tiene sombras duras. Su forma principal es la de una cuadrícula, la cual se puede cambiar, por otro tipo de forma.<br>Se invita a observar el siguiente video para mayor información: 
-            figure
-            .video            
-              iframe(width="1255" height="706" src="https://www.youtube.com/embed/2Zx4403CuFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          .row.justify-content-center(numero="d" titulo="ÁREA")
+            .col-lg-12
+              p.mb-4 Este tipo de luz simula la que emite un televisor, este tipo de luz produce sombras con bordes suaves, a diferencia del otro tipo de luces artificiales, que tiene sombras duras. Su forma principal es la de una cuadrícula, la cual se puede cambiar, por otro tipo de forma.<br>Se invita a observar el siguiente video para mayor información: 
+              figure
+              .video            
+                iframe(width="1255" height="706" src="https://www.youtube.com/embed/2Zx4403CuFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-        .row.justify-content-center(numero="e" titulo="<i>BACKGROUN</i>")
-          .col-lg-12
-            p.mb-4 Este tipo de luz de ambiente que ya viene predefinido en <i>Blender</i>, el cual puede cambiar su color, valores y la fuerza de la luz, este es de tipo infinito, no tiene una posición de la luz, sino que ambienta todo el escenario por igual<br>Se invita a observar el siguiente video para mayor información: 
-            figure
-            .video            
-              iframe(width="1255" height="706" src="https://www.youtube.com/embed/wOr1nzi8uFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          .row.justify-content-center(numero="e" titulo="<i>BACKGROUN</i>")
+            .col-lg-12
+              p.mb-4 Este tipo de luz de ambiente que ya viene predefinido en <i>Blender</i>, el cual puede cambiar su color, valores y la fuerza de la luz, este es de tipo infinito, no tiene una posición de la luz, sino que ambienta todo el escenario por igual<br>Se invita a observar el siguiente video para mayor información: 
+              figure
+              .video            
+                iframe(width="1255" height="706" src="https://www.youtube.com/embed/wOr1nzi8uFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador 
 
     #t_2_3.titulo-segundo.color-acento-contenido
@@ -215,50 +217,53 @@
     #t_2_5.titulo-segundo.color-acento-contenido
       h2 2.5  Iluminación en interiores y exteriores 
     
-    div.tema2-fondo1.mb-5
+    div.tema2-fondo1.mb-0
       .row.justify-content-center
         .col-10.pt-5
           figure.mb-5
-            img(src='@/assets/curso/tema2/img17.svg') 
+            img(src='@/assets/curso/tema2/img17.png') 
 
           p.mb-0 La iluminación en exteriores hace referencia a aquellas escenas ubicadas en espacios abiertos, en donde, generalmente, se usa una iluminación directa que depende de la luz natural proveniente del sol si se trata de un escenario diurno; o si por el contrario, se trata de un escenario nocturno, entonces la luz puede provenir tanto de fuentes naturales como la luna, la cual tiene la capacidad de proporcionar un tipo de iluminación mucho más tenue; o de fuentes artificiales como por ejemplo el alumbrado público, reflectores, etc. 
 
-    .row.justify-content-center.tema2-fondo3.mb-5.py-4
-      .col-lg-7.px-5
-        .row.justify-content-center  
-          .col-lg-8
-            div.BorTit2.mb-3         
-              p.mb-0 <b>Figura 11</b> Escena en exterior de la película “El viaje de Chihiro”
-        figure.mb-0
-          img(src='@/assets/curso/tema2/img12.png') 
-          figcaption Nota. Tomada de skeletonroad (tumblr.com)
-      .col-lg-5.d-flex.align-items-center
-        div
-          p.mb-4 Por otra parte, la luz en interiores se refiere a la iluminación de escenas en espacios cerrados como habitaciones, búnkeres, cuevas, etc., que pueden estar iluminadas tanto por luces naturales como por ejemplo cuando los rayos del sol entran por una ventana, iluminando de manera indirecta toda la habitación; o por luces artificiales como lámparas, bombillos, linternas, fogatas, entre otros. 
-          p.mb-0 En ambos casos es importante tener en cuenta algunas características de la luz como su intensidad, reflexión, dirección y ángulo, las cuales varían dependiendo del momento del día y de las condiciones atmosféricas o climáticas, así mismo se deben considerar los efectos que tendrán sobre la gama de colores en escena. 
-          
-    p.mb-5 Para esto, es necesario manipular algunos parámetros que permitan controlar la cantidad exacta de la luz, conocer de dónde proviene el foco de luz natural para determinar la dirección de las sombras y definir la interpretación de una gama de color más fríos o más cálidos, de acuerdo a un momento concreto en la escena y a la orientación de la luz. También es importante examinar si es preciso utilizar iluminaciones suplementarias que realcen las sombras y contrastes de los objetos puestos en escena.
-    
-    .row.justify-content-center.mb-5
-      .col-lg-8.px-5
-        .row.justify-content-center  
-          .col-lg-5
-            div.BorTit2.mb-3         
-              p.mb-0 <b>Figura 12</b> Ejemplo de iluminación en interiores
-        figure.mb-0
-          img(src='@/assets/curso/tema2/img13.png') 
-          figcaption Nota. Tomada de Lazada_阿里云游戏城_Styleframe|三维|其他三维|FireringZ - 原创作品 - 站酷 (ZCOOL)
-    
-    .row.justify-content-center.mb-0
-      .col-lg-10
-        .cajon.color-primario.px-4.py-4
-          p.mb-4 En el video que encuentra a continuación, se podrá consultar más información sobre la iluminación en espacios internos:
-          .row.justify-content-center  
-            .col-lg-10              
+    div.fondo-especial.pt-5.mb-0
+      .row.mb-0
+        div.tema2-fondo3.mb-5.p-0
+          .row.justify-content-center.py-4.m-0
+            .col-lg-7.px-5
+              .row.justify-content-center  
+                .col-lg-8
+                  div.BorTit2.mb-3         
+                    p.mb-0 <b>Figura 11</b> Escena en exterior de la película “El viaje de Chihiro”
               figure.mb-0
-                .video                  
-                  iframe(width="1255" height="706" src="https://www.youtube.com/embed/h2Z11am_4S4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                img(src='@/assets/curso/tema2/img12.png') 
+                figcaption Nota. Tomada de skeletonroad (tumblr.com)
+            .col-lg-5.d-flex.align-items-center
+              div.m-0
+                p.mb-4 Por otra parte, la luz en interiores se refiere a la iluminación de escenas en espacios cerrados como habitaciones, búnkeres, cuevas, etc., que pueden estar iluminadas tanto por luces naturales como por ejemplo cuando los rayos del sol entran por una ventana, iluminando de manera indirecta toda la habitación; o por luces artificiales como lámparas, bombillos, linternas, fogatas, entre otros. 
+                p.mb-0 En ambos casos es importante tener en cuenta algunas características de la luz como su intensidad, reflexión, dirección y ángulo, las cuales varían dependiendo del momento del día y de las condiciones atmosféricas o climáticas, así mismo se deben considerar los efectos que tendrán sobre la gama de colores en escena. 
+                
+        p.mb-5 Para esto, es necesario manipular algunos parámetros que permitan controlar la cantidad exacta de la luz, conocer de dónde proviene el foco de luz natural para determinar la dirección de las sombras y definir la interpretación de una gama de color más fríos o más cálidos, de acuerdo a un momento concreto en la escena y a la orientación de la luz. También es importante examinar si es preciso utilizar iluminaciones suplementarias que realcen las sombras y contrastes de los objetos puestos en escena.
         
+        .row.justify-content-center.mb-5
+          .col-lg-8.px-5
+            .row.justify-content-center  
+              .col-lg-5
+                div.BorTit2.mb-3         
+                  p.mb-0 <b>Figura 12</b> Ejemplo de iluminación en interiores
+            figure.mb-0
+              img(src='@/assets/curso/tema2/img13.png') 
+              figcaption Nota. Tomada de Lazada_阿里云游戏城_Styleframe|三维|其他三维|FireringZ - 原创作品 - 站酷 (ZCOOL)
+        
+        .row.justify-content-center.mb-0
+          .col-lg-10
+            .especial.cajon.color-primario.px-4.py-4
+              p.mb-4 En el video que encuentra a continuación, se podrá consultar más información sobre la iluminación en espacios internos:
+              .row.justify-content-center  
+                .col-lg-10              
+                  figure.mb-0
+                    .video                  
+                      iframe(width="1255" height="706" src="https://www.youtube.com/embed/h2Z11am_4S4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            
     Separador 
 
     #t_2_6.titulo-segundo.color-acento-contenido

@@ -117,7 +117,12 @@ caption
     color: #12263F;
 
 .tema2-LineaTiempoD .linea-tiempo-d__item--selected .tarjeta--gris 
-    background-color: #F8F1E7 !important;
+  background: rgba(228, 199, 161, .25) !important
+  padding: 1.5rem!important;
+
+.tema2-LineaTiempoD .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  padding: 0.0rem!important;
+
 
 
 .tema1-row2
@@ -181,27 +186,51 @@ caption
 
 
 .tema2-fondo31
-  background: rgba(245,211,210,1);
-  background: -moz-linear-gradient(top, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,211,210,1)), color-stop(100%, rgba(255,255,255,1)));
-  background: -webkit-linear-gradient(top, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
-  background: -o-linear-gradient(top, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
-  background: -ms-linear-gradient(top, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
-  background: linear-gradient(to bottom, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d3d2', endColorstr='#ffffff', GradientType=0 );
+  position: relative
+  padding-bottom: 1rem
+  .row
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 150%
+    height: 100%
+    margin: 0 -5rem    
+    background: rgba(245,211,210,1);
+    background: -moz-linear-gradient(top, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,211,210,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d3d2', endColorstr='#ffffff', GradientType=0 );
 
 
-.tema2-fondo1
-  background: rgba(241,226,207,1);
-  background: -moz-linear-gradient(top, rgba(241,226,207,1) 0%, rgba(255,255,255,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,226,207,1)), color-stop(100%, rgba(255,255,255,1)));
-  background: -webkit-linear-gradient(top, rgba(241,226,207,1) 0%, rgba(255,255,255,1) 100%);
-  background: -o-linear-gradient(top, rgba(241,226,207,1) 0%, rgba(255,255,255,1) 100%);
-  background: -ms-linear-gradient(top, rgba(241,226,207,1) 0%, rgba(255,255,255,1) 100%);
-  background: linear-gradient(to bottom, rgba(241,226,207,1) 0%, rgba(255,255,255,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e2cf', endColorstr='#ffffff', GradientType=0 );
+.tema2-fondo1  
+  position: relative
+  padding-bottom: 1rem
+  .row
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 150%
+    height: 100%
+    margin: 0 -5rem  
+    background: rgba(241,226,207,1);
+    background: -moz-linear-gradient(top, rgba(241,226,207,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,226,207,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(241,226,207,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(241,226,207,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(241,226,207,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(241,226,207,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e2cf', endColorstr='#ffffff', GradientType=0 );
 
-.tema2-row111
+.tema2-row111  
   background: rgba(233,237,217,1);
   background: -moz-linear-gradient(left, rgba(233,237,217,1) 0%, rgba(249,243,235,1) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(233,237,217,1)), color-stop(100%, rgba(249,243,235,1)));
@@ -257,27 +286,56 @@ caption
   color: black !important
 
 .tema2-row1
-  background: rgba(255,255,255,1);
-  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(239,223,201,1) 63%, rgba(232,237,217,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(63%, rgba(239,223,201,1)), color-stop(100%, rgba(232,237,217,1)));
-  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(239,223,201,1) 63%, rgba(232,237,217,1) 100%);
-  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(239,223,201,1) 63%, rgba(232,237,217,1) 100%);
-  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(239,223,201,1) 63%, rgba(232,237,217,1) 100%);
-  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(239,223,201,1) 63%, rgba(232,237,217,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8edd9', GradientType=1 );
+  position: relative
+  padding-bottom: 1rem
+  .row
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 150%
+    height: 100%
+    margin: 0 -5rem  
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(239,223,201,1) 63%, rgba(232,237,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(63%, rgba(239,223,201,1)), color-stop(100%, rgba(232,237,217,1)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(239,223,201,1) 63%, rgba(232,237,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(239,223,201,1) 63%, rgba(232,237,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(239,223,201,1) 63%, rgba(232,237,217,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(239,223,201,1) 63%, rgba(232,237,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8edd9', GradientType=1 );
 
-.tema2-fondo3
-  background: rgba(255,255,255,1);
-  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(240,224,202,1) 63%, rgba(232,236,216,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(63%, rgba(240,224,202,1)), color-stop(100%, rgba(232,236,216,1)));
-  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(240,224,202,1) 63%, rgba(232,236,216,1) 100%);
-  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(240,224,202,1) 63%, rgba(232,236,216,1) 100%);
-  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(240,224,202,1) 63%, rgba(232,236,216,1) 100%);
-  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(240,224,202,1) 63%, rgba(232,236,216,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8ecd8', GradientType=1 );
+.fondo-especial  
+  position: relative
+  padding-bottom: 1rem
+  .row
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 150%
+    height: 100%
+    margin: 0 -5rem      
+    background-image: url("../assets/curso/tema2/img102.png")
+    background-size: 74% 100%
+
+
+.tema2-fondo3  
+    background: rgba(243,250,248,1);
+    background: -moz-linear-gradient(left, rgba(243,250,248,1) 0%, rgba(250,244,236,1) 44%, rgba(239,223,201,1) 64%, rgba(232,237,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,250,248,1)), color-stop(44%, rgba(250,244,236,1)), color-stop(64%, rgba(239,223,201,1)), color-stop(100%, rgba(232,237,217,1)));
+    background: -webkit-linear-gradient(left, rgba(243,250,248,1) 0%, rgba(250,244,236,1) 44%, rgba(239,223,201,1) 64%, rgba(232,237,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(243,250,248,1) 0%, rgba(250,244,236,1) 44%, rgba(239,223,201,1) 64%, rgba(232,237,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(243,250,248,1) 0%, rgba(250,244,236,1) 44%, rgba(239,223,201,1) 64%, rgba(232,237,217,1) 100%);
+    background: linear-gradient(to right, rgba(243,250,248,1) 0%, rgba(250,244,236,1) 44%, rgba(239,223,201,1) 64%, rgba(232,237,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3faf8', endColorstr='#e8edd9', GradientType=1 );
 
 .cajon.color-primario 
-    background-color: #F4D3D1;
+    background: rgba(212,79 ,74 , 0.25);
 
 .tema3-fondo1  
   background: rgba(204,232,228,1);

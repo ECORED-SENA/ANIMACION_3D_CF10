@@ -609,12 +609,12 @@
       .video            
         iframe(width="1255" height="706" src="https://www.youtube.com/embed/Ug4XECwsp_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-end
-      .col-lg-3
+      .col-lg-5
         a.anexo.mb-0(:href="obtenerLink('/downloads/triangulo de iluminacion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p <b>Triángulo de iluminación</b>
+            p <b>Triángulo de iluminación.</b> Paso a paso de creación del triángulo de iluminación o esquema de tres luces.
     Separador 
 
     #t_1_4.titulo-segundo.color-acento-contenido
