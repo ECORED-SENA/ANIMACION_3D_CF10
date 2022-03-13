@@ -61,14 +61,26 @@ caption
   border: 1px solid #707070
 
 .tema1-row1
-  background: rgba(232,237,217,1);
-  background: -moz-linear-gradient(left, rgba(232,237,217,1) 0%, rgba(255,255,255,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(232,237,217,1)), color-stop(100%, rgba(255,255,255,1)));
-  background: -webkit-linear-gradient(left, rgba(232,237,217,1) 0%, rgba(255,255,255,1) 100%);
-  background: -o-linear-gradient(left, rgba(232,237,217,1) 0%, rgba(255,255,255,1) 100%);
-  background: -ms-linear-gradient(left, rgba(232,237,217,1) 0%, rgba(255,255,255,1) 100%);
-  background: linear-gradient(to right, rgba(232,237,217,1) 0%, rgba(255,255,255,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8edd9', endColorstr='#ffffff', GradientType=1 );
+  position: relative
+  padding-bottom: 1rem
+  .row
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 150%
+    height: 100%
+    margin: 0 -5rem   
+    background: rgba(232,237,217,1);
+    background: -moz-linear-gradient(left, rgba(232,237,217,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(232,237,217,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(left, rgba(232,237,217,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(232,237,217,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(232,237,217,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to right, rgba(232,237,217,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8edd9', endColorstr='#ffffff', GradientType=1 );
 
 .tema1-fondo1
   background-image: url("../assets/curso/tema1/img02.svg")
@@ -109,24 +121,36 @@ caption
 
 
 .tema1-row2
-  background: rgba(232,237,217,1);
-  background: -moz-linear-gradient(left, rgba(232,237,217,1) 0%, rgba(248,240,231,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(232,237,217,1)), color-stop(100%, rgba(248,240,231,1)));
-  background: -webkit-linear-gradient(left, rgba(232,237,217,1) 0%, rgba(248,240,231,1) 100%);
-  background: -o-linear-gradient(left, rgba(232,237,217,1) 0%, rgba(248,240,231,1) 100%);
-  background: -ms-linear-gradient(left, rgba(232,237,217,1) 0%, rgba(248,240,231,1) 100%);
-  background: linear-gradient(to right, rgba(232,237,217,1) 0%, rgba(248,240,231,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8edd9', endColorstr='#f8f0e7', GradientType=1 );
+  background: rgba(232,236,216,1);
+  background: -moz-linear-gradient(left, rgba(232,236,216,1) 0%, rgba(237,225,203,1) 50%, rgba(248,241,232,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(232,236,216,1)), color-stop(50%, rgba(237,225,203,1)), color-stop(100%, rgba(248,241,232,1)));
+  background: -webkit-linear-gradient(left, rgba(232,236,216,1) 0%, rgba(237,225,203,1) 50%, rgba(248,241,232,1) 100%);
+  background: -o-linear-gradient(left, rgba(232,236,216,1) 0%, rgba(237,225,203,1) 50%, rgba(248,241,232,1) 100%);
+  background: -ms-linear-gradient(left, rgba(232,236,216,1) 0%, rgba(237,225,203,1) 50%, rgba(248,241,232,1) 100%);
+  background: linear-gradient(to right, rgba(232,236,216,1) 0%, rgba(237,225,203,1) 50%, rgba(248,241,232,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ecd8', endColorstr='#f8f1e8', GradientType=1 );
 
 .tema1-row3
-  background: rgba(203,231,227,1);
-  background: -moz-linear-gradient(top, rgba(203,231,227,1) 0%, rgba(255,255,255,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(203,231,227,1)), color-stop(100%, rgba(255,255,255,1)));
-  background: -webkit-linear-gradient(top, rgba(203,231,227,1) 0%, rgba(255,255,255,1) 100%);
-  background: -o-linear-gradient(top, rgba(203,231,227,1) 0%, rgba(255,255,255,1) 100%);
-  background: -ms-linear-gradient(top, rgba(203,231,227,1) 0%, rgba(255,255,255,1) 100%);
-  background: linear-gradient(to bottom, rgba(203,231,227,1) 0%, rgba(255,255,255,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbe7e3', endColorstr='#ffffff', GradientType=0 );
+  position: relative
+  padding-bottom: 1rem
+  .row
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 150%
+    height: 100%
+    margin: 0 -5rem    
+    background: rgba(203,231,227,1);
+    background: -moz-linear-gradient(top, rgba(203,231,227,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(203,231,227,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(203,231,227,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(203,231,227,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(203,231,227,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(203,231,227,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbe7e3', endColorstr='#ffffff', GradientType=0 );
 
 .tema1-tab1 .tarjeta.color-primario
     background-color: #F8E4E3
@@ -186,6 +210,13 @@ caption
   background: -ms-linear-gradient(left, rgba(233,237,217,1) 0%, rgba(249,243,235,1) 100%);
   background: linear-gradient(to right, rgba(233,237,217,1) 0%, rgba(249,243,235,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9edd9', endColorstr='#f9f3eb', GradientType=1 );
+
+.tema1.cajon.color-acento-contenido
+  background-color: #F4D3D1 !important
+
+.cajon.color-acento-contenido:before 
+    background-color: #D44F4A;
+
 
 .cajon.color-acento-contenido
   background-color: #F8F1E7 !important
@@ -286,6 +317,9 @@ caption
 
 .tema-2-bloque  .bloque-texto-g
   justify-content: flex-start !important
+
+.tabs-c__tab--active span
+  font-weight: bold
 
   
 
