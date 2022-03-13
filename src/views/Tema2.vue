@@ -150,21 +150,21 @@
             .anexo__icono
               img(src="@/assets/curso/tema2/img09.svg")
             .anexo__texto
-              p <b>Video.</b> <i>Sky</i> <i>Texture</i>
+              p <b>Video. <i>Sky</i> <i>Texture</i></b>  Crear iluminación a partir del cielo y su textura.               
       .col-lg-3
         .tema2-link
           a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=_5Pt0QmbROs" target="_blank")
             .anexo__icono
               img(src="@/assets/curso/tema2/img09.svg")
             .anexo__texto
-              p <b>Video.</b> <i>Volume</i> <i>Scatter</i>
+              p <b>Video. <i>Volume</i> <i>Scatter</i></b>   Crear iluminación realista de un escenario. 
       .col-lg-3
         .tema2-link
           a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=hv7dWIwZQb4" target="_blank")
             .anexo__icono
               img(src="@/assets/curso/tema2/img09.svg")
             .anexo__texto
-              p <b>Video.</b> Emisión
+              p <b>Video. Emisión</b> Crear iluminación de tipo emisión.
     Separador 
 
     #t_2_4.titulo-segundo.color-acento-contenido

@@ -123,6 +123,13 @@ caption
 .tema2-LineaTiempoD .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   padding: 0.0rem!important;
 
+.tema3-LineaTiempoD .linea-tiempo-d__item--selected .tarjeta--gris 
+  background: rgba(212, 79, 74, .25) !important
+  padding: 1.5rem!important;
+
+.tema3-LineaTiempoD .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  padding: 0.0rem!important;
+
 
 
 .tema1-row2
@@ -276,14 +283,22 @@ caption
 .tema2-link .anexo
   background-color: #D2EBE7 !important
 
-.tema3-link .anexo
-  background-color: #FFFFFF !important
-
 .tema2-link .anexo * 
   color: black !important
 
+.tema3-link .anexo
+  background-color: #FFFFFF !important
+
 .tema3-link .anexo * 
   color: black !important
+
+.tema3-link-b .anexo * 
+  color: black !important
+
+.tema3-link-b .anexo
+  background-color: #FFFFFF !important
+
+
 
 .tema2-row1
   position: relative
@@ -338,14 +353,26 @@ caption
     background: rgba(212,79 ,74 , 0.25);
 
 .tema3-fondo1  
-  background: rgba(204,232,228,1);
-  background: -moz-linear-gradient(top, rgba(204,232,228,1) 0%, rgba(255,255,255,1) 74%, rgba(255,255,255,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(204,232,228,1)), color-stop(74%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
-  background: -webkit-linear-gradient(top, rgba(204,232,228,1) 0%, rgba(255,255,255,1) 74%, rgba(255,255,255,1) 100%);
-  background: -o-linear-gradient(top, rgba(204,232,228,1) 0%, rgba(255,255,255,1) 74%, rgba(255,255,255,1) 100%);
-  background: -ms-linear-gradient(top, rgba(204,232,228,1) 0%, rgba(255,255,255,1) 74%, rgba(255,255,255,1) 100%);
-  background: linear-gradient(to bottom, rgba(204,232,228,1) 0%, rgba(255,255,255,1) 74%, rgba(255,255,255,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cce8e4', endColorstr='#ffffff', GradientType=0 );
+  position: relative
+  padding-bottom: 1rem
+  .row
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 150%
+    height: 100%
+    margin: 0 -5rem      
+    background: rgba(245,211,210,1);
+    background: -moz-linear-gradient(top, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,211,210,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(245,211,210,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d3d2', endColorstr='#ffffff', GradientType=0 );
 
 .tema3-fondo10
   background-image: url("../assets/curso/tema3/img02.svg")
