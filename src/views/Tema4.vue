@@ -30,50 +30,55 @@
                     .row.justify-content-center.mb-4
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
+                          a.anexo.mb-4.mb-lg-0(style="width:100%" :href="obtenerLink('/downloads/niebla.pdf')" target="_blank")
+                            .anexo__icono
+                              img(src="@/assets/template/icono-pdf.svg")
+                            .anexo__texto
+                              p <b>Niebla</b>
+                        
+                      .col-lg-6.d-flex
+                        .tema3-link.d-flex(style="width:100%")
                           a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=46CEvGZubds" target="_blank")
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
-                              p <b>Video.</b>  Nubes
+                              p.mb-1 <b>Video. Nubes</b> Generar nubes volumétricas procedurales.                       
+
+                    .row.justify-content-center.mb-4
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
                           a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=T8BQoGwFsoQ" target="_blank")
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
-                              p <b>Video.</b>  Lluvia
+                              p <b>Video. Lluvia</b>   Generar efectos de lluvia con emisor de partículas.                         
 
-                    .row.justify-content-center.mb-4
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
                           a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=UO7uE5-4m4Y" target="_blank")
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
-                              p <b>Video.</b>  Fuego y humo
+                              p <b>Video. Fuego y humo</b> Generar el efecto fuego y humo.                       
+
+                    .row.justify-content-center.mb-0
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
                           a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=sM0mQmKl-zY" target="_blank")
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
-                              p <b>Video.</b>  Explosión
+                              p <b>Video. Explosión</b> Generar el efecto explosión a un objeto.                         
 
-                    .row.justify-content-center.mb-0
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
                           a.anexo.mb-4.mb-lg-0(style="width:100%" href="https://www.youtube.com/watch?v=GsobhZ_rxx8" target="_blank")
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
-                              p <b>Video.</b>  Neblina
-                      .col-lg-6.d-flex
-                        .tema3-link.d-flex(style="width:100%")
-                          a.anexo.mb-4.mb-lg-0(style="width:100%" :href="obtenerLink('/downloads/niebla.pdf')" target="_blank")
-                            .anexo__icono
-                              img(src="@/assets/template/icono-pdf.svg")
-                            .anexo__texto
-                              p Niebla
+                              p <b>Video. Neblina</b> Generar el efecto niebla en un escenario. 
+                        
+                        
 
     
     separador
