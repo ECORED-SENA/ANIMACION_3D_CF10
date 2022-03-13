@@ -764,11 +764,11 @@
               .row.justify-content-center.mb-4  
                 .col-lg-6                
                   figure.mb-0
-                    img(src='@/assets/curso/tema1/img62.svg')
+                    img(src='@/assets/curso/tema1/img62.png')
                     figcaption Nota. Tomada de www.diferenciador.com
                 .col-lg-6                
                   figure.mb-0
-                    img(src='@/assets/curso/tema1/img61.gif')
+                    img(src='@/assets/curso/tema1/img61.png')
                     
 
           p.mb-4 El fenómeno de refracción es especialmente útil para entender el funcionamiento de algunos instrumentos ópticos como lupas, lentes de microscopios o telescopios, los cuales cambian la trayectoria de la luz, la concentran y dan la sensación de aumentar el tamaño de las cosas.
