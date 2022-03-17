@@ -12,7 +12,7 @@
     div.tema1-fondo1
       div(style="position:relative")
         div(style="position:absolute; top:0px; width:100%; height:100%")
-          .row.tema1-row1.py-4.mx-0
+          .row.tema1-row1-int2.py-4.mx-0
             .col-lg-1          
             .col-lg-5
               p.mb-0(style="color: transparent") Uno de los aspectos más importantes en la creación de imágenes y su integración en escenarios es la definición de los elementos que iluminan la escena. Por esta razón, es necesario definir los objetos que añaden iluminación a los objetos que constituyen la escena, los tipos de luces y sus características básicas. Estos serán vistos durante este contenido como un preámbulo a la definición y manipulación de los elementos que se usan como luces.
@@ -24,12 +24,12 @@
         .row(style="position:relative; z-index:10000")
           .col-lg-6   
             .row.py-4
-              .col-lg-2          
-              .col-lg-10
+              .col-lg-1          
+              .col-lg-11.ps-4
                 p.mb-0 Uno de los aspectos más importantes en la creación de imágenes y su integración en escenarios es la definición de los elementos que iluminan la escena. Por esta razón, es necesario definir los objetos que añaden iluminación a los objetos que constituyen la escena, los tipos de luces y sus características básicas. Estos serán vistos durante este contenido como un preámbulo a la definición y manipulación de los elementos que se usan como luces.        
             .row.py-4
-              .col-lg-2         
-              .col-lg-10
+              .col-lg-1         
+              .col-lg-11.ps-4
                 p.mb-0 Los puntos de iluminación, sin duda, hacen parte del realismo que le integramos a la atmósfera o al ambiente que se está  creando y, a su vez, son elementos más delicados de utilizar al influir enormemente en el tiempo necesario para renderizar una escena. Cada uno de los objetos utilizados dispone de parámetros y propiedades específicas que pueden ser, o no, comunes a los tipos de iluminación, tal como se verá en este contenido.
           .col-lg-6.d-flex.align-items-center.justify-content-center  
             .row.justify-content-center
@@ -37,8 +37,7 @@
                 figure.mb-0
                   img(src='@/assets/curso/tema1/img02.png') 
           
-
-      Separador 
+      Separador
 
 
       #t_1_1.titulo-segundo.color-acento-contenido
@@ -59,7 +58,7 @@
                 img(style="height:174px;" src='@/assets/curso/tema1/img101.svg')
 
         .col-lg-6.d-flex
-          div.p-5.border(style="position: relative; background-color: rgba(107, 255, 177, .3)")
+          div.p-5(style="position: relative; background-color: rgba(107, 188, 177, .3)")
             .row.px-2.mb-4.ms-0
               .col-2(style="border: 2px solid #6BBCB1")
             p.mb-3 <b>Luz artificial:</b> la luz artificial sería toda aquella producida por linternas, lámparas, bombillos, fogatas, velas, antorchas, entre otras. Puede propagarse de forma recta o radial, puede tener diferentes posiciones y orientaciones, así como también variedad de colores, intensidades y texturas 
@@ -164,7 +163,7 @@
             .row
               .col-lg-6.ps-5
                 p.ms-4.mb-4 Las propiedades de la luz cuando golpean al objeto se pueden clasificar de dos maneras principales, que son:
-                .cajon.color-secundario.p-5.mb-0.ms-4
+                .cajon.color-secundario.px-5.py-4.mb-0.ms-4
                   .row
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
@@ -390,7 +389,7 @@
     
     .row.justify-content-center.mb-5
       .col-lg-10        
-          .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
+          .bloque-texto-g.color-acento-botones.p-4
             .bloque-texto-g__img(
               :style="{'background-image': `url(${require('@/assets/curso/tema1/img55.png')})`}"
             )

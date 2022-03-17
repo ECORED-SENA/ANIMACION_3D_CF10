@@ -40,7 +40,7 @@
 
     .row.justify-content-center
       .col-lg-10
-        .cajon.color-acento-contenido.px-4.py-5
+        .cajontema2.cajon.color-acento-contenido.px-4.py-5
           p.mb-4 O cuando los rayos del sol golpean la entrada de una cueva y rebotan hacia dentro ocasionando que su interior se ilumine también (figura 10).
           .row.justify-content-center  
             .col-lg-7
@@ -170,8 +170,8 @@
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4  <i>High Dinamic Range Image</i> (HDRI) o imagen de alto rango dinámico 
 
-    .tema-2-bloque
-      .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5
+    .tema-2-bloque.mb-5
+      .bloque-texto-g.color-acento-botones.p-4
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/tema2/img10.svg')})`}"
         )
@@ -180,7 +180,7 @@
 
     div(style="position:relative")
         div(style="position:absolute; top:0px; width:100%; height:100%")
-          .row.tema2-row1.py-4
+          .row.tema2-row1-int2.py-4
             .col-lg-6            
             .col-lg-6
               p.mb-0(style="color: transparent") Posteriormente, aparecieron las imágenes en HDR (<i>High Dinamic Range Image</i>), que es un formato de rango dinámico mucho más alto en colores y valores; basado en la teoría tricromática del ojo humano y los valores de luminancia de cada píxel, de manera que no solo almacena el color, sino también la intensidad y el brillo de la luz real en ese punto del mapa (pixel); lo que amplía enormemente la escala de luces y colores, haciendo que las imágenes se vean de mejor calidad y mucho más realistas en comparación con una imagen en formato tradicional. 
@@ -227,7 +227,7 @@
 
     div.fondo-especial.pt-5.mb-0
       .row.mb-0
-        div.tema2-fondo3.mb-5.p-0
+        div.tema2-row1-int2.mb-5.p-0
           .row.justify-content-center.py-4.m-0
             .col-lg-7.px-5
               .row.justify-content-center  
@@ -259,7 +259,7 @@
             .especial.cajon.color-primario.px-4.py-4
               p.mb-4 En el video que encuentra a continuación, se podrá consultar más información sobre la iluminación en espacios internos:
               .row.justify-content-center  
-                .col-lg-10              
+                .col-lg-11.px-4              
                   figure.mb-0
                     .video                  
                       iframe(width="1255" height="706" src="https://www.youtube.com/embed/h2Z11am_4S4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
