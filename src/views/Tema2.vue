@@ -260,7 +260,7 @@
               p.mb-4 En el video que encuentra a continuación, se podrá consultar más información sobre la iluminación en espacios internos:
               .row.justify-content-center  
                 .col-lg-11.px-4              
-                  figure.mb-0
+                  figure.mb-5
                     .video                  
                       iframe(width="1255" height="706" src="https://www.youtube.com/embed/h2Z11am_4S4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             

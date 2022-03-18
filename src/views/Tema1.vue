@@ -68,10 +68,10 @@
                 img(style="height:174px;" src='@/assets/curso/tema1/img102.svg')
       
       TabsC.color-secundario
-        .py-3.py-md-4(titulo="Aspectos importantes de la luz")
+        .py-4(titulo="Aspectos importantes de la luz")
           SlyderE(indicadores="derecha")
             .row
-              .col-lg-6.ps-5
+              .col-lg-6
                 .cajon.color-secundario.p-5.mb-0.ms-4
                   .row
                     .col-lg-1.p-0.vineta
@@ -107,7 +107,7 @@
 
             .row
               .col-lg-7.ps-5
-                .cajon.color-secundario.p-5.mb-0.ms-4
+                .cajon.color-secundario.px-5.py-4.mb-0.ms-4
                   .row
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
@@ -124,7 +124,7 @@
 
             .row
               .col-lg-6.ps-5
-                .cajon.color-secundario.p-5.mb-0.ms-4
+                .cajon.color-secundario.px-5.py-4.mb-0.ms-4
                   .row
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
@@ -142,7 +142,7 @@
 
             .row
               .col-lg-6.ps-5
-                .cajon.color-secundario.p-5.mb-0.ms-4
+                .cajon.color-secundario.px-5.py-4.mb-0.ms-4
                   .row
                     .col-lg-1.p-0.vineta
                       img.m-0.vineta(src='@/assets/curso/tema1/img04.svg') 
