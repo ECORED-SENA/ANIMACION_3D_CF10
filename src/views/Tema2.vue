@@ -84,7 +84,7 @@
 
           .row.justify-content-center(numero="c" titulo="<i>SPOT</i>")
             .col-lg-12
-              p.mb-4 Esta luz se destaca por el tipo de forma de cono que tiene, ya que solo dentro de él se emite la luz. se puede ajustar el radio, para adquirir sombras más suaves.<br>Se invita a observar el siguiente video para más información al respecto: 
+              p.mb-4 Esta luz se destaca por el tipo de forma de cono que tiene, ya que solo dentro de él se emite la luz. Se puede ajustar el radio, para adquirir sombras más suaves.<br>Se invita a observar el siguiente video para más información al respecto: 
               figure
               .video            
                 iframe(width="1255" height="706" src="https://www.youtube.com/embed/uU-Jv-xpsgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -96,7 +96,7 @@
               .video            
                 iframe(width="1255" height="706" src="https://www.youtube.com/embed/2Zx4403CuFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-          .row.justify-content-center(numero="e" titulo="<i>BACKGROUN</i>")
+          .row.justify-content-center(numero="e" titulo="<i>BACKGROUND</i>")
             .col-lg-12
               p.mb-4 Este tipo de luz de ambiente que ya viene predefinido en <i>Blender</i>, el cual puede cambiar su color, valores y la fuerza de la luz, este es de tipo infinito, no tiene una posición de la luz, sino que ambienta todo el escenario por igual<br>Se invita a observar el siguiente video para mayor información: 
               figure
@@ -187,7 +187,7 @@
           .row.py-4
             .col-lg-6            
             .col-lg-6
-              p.mb-0(style="color: transparent") Es por estas características, que este tipo de imágenes se usan para la simulación de entornos reales en <i>softwares</i> de animación 3D, en donde el valor de cada pixel es directamente proporcional a la luminancia de un objeto real, gracias a que el motor de renderizado es capaz de calcular y simular absolutamente toda la iluminación en una escena, detallando y diferenciando las distintas iluminaciones presentes, obteniendo como resultado imágenes ultra realistas. 
+              p.mb-0(style="color: transparent") Es por estas características, que este tipo de imágenes se usan para la simulación de entornos reales en <i>software</i> de animación 3D, en donde el valor de cada pixel es directamente proporcional a la luminancia de un objeto real, gracias a que el motor de renderizado es capaz de calcular y simular absolutamente toda la iluminación en una escena, detallando y diferenciando las distintas iluminaciones presentes, obteniendo como resultado imágenes ultra realistas. 
 
     .row.mb-5(style="position:relative; z-index:10000")
       .col-lg-6.d-flex.align-items-center.justify-content-center  
@@ -203,7 +203,7 @@
         .row.py-4
           //.col-lg-2         
           .col-lg-12
-            p.mb-0 Es por estas características, que este tipo de imágenes se usan para la simulación de entornos reales en <i>softwares</i> de animación 3D, en donde el valor de cada pixel es directamente proporcional a la luminancia de un objeto real, gracias a que el motor de renderizado es capaz de calcular y simular absolutamente toda la iluminación en una escena, detallando y diferenciando las distintas iluminaciones presentes, obteniendo como resultado imágenes ultra realistas. 
+            p.mb-0 Es por estas características, que este tipo de imágenes se usan para la simulación de entornos reales en <i>software</i> de animación 3D, en donde el valor de cada pixel es directamente proporcional a la luminancia de un objeto real, gracias a que el motor de renderizado es capaz de calcular y simular absolutamente toda la iluminación en una escena, detallando y diferenciando las distintas iluminaciones presentes, obteniendo como resultado imágenes ultra realistas. 
       
     p.mb-4 Las imágenes HDR se pueden obtener de dos formas, a partir de un algoritmo de iluminación global en un renderizado por computadora; o de una mezcla de múltiples fotografías con diferentes parámetros de exposición, para obtener diferentes imágenes con todo el rango posible de luz, para después unir todas las tomas en un único fichero.
     p.mb-4 En el siguiente video se ofrece más información sobre la iluminación e imagen de alto rango dinámico:

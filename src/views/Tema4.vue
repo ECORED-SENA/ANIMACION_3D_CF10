@@ -42,7 +42,7 @@
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
-                              p.mb-1 <b>Video. Nubes</b> Generar nubes volumétricas procedurales.                       
+                              p.mb-1 <b>Video. Nubes.</b> Generar nubes volumétricas procedurales.                       
 
                     .row.justify-content-center.mb-4
                       .col-lg-6.d-flex
@@ -51,7 +51,7 @@
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
-                              p <b>Video. Lluvia</b>   Generar efectos de lluvia con emisor de partículas.                         
+                              p <b>Video. Lluvia.</b> Generar efectos de lluvia con emisor de partículas.                         
 
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
@@ -59,7 +59,7 @@
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
-                              p <b>Video. Fuego y humo</b> Generar el efecto fuego y humo.                       
+                              p <b>Video. Fuego y humo.</b> Generar el efecto fuego y humo.                       
 
                     .row.justify-content-center.mb-0
                       .col-lg-6.d-flex
@@ -68,7 +68,7 @@
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
-                              p <b>Video. Explosión</b> Generar el efecto explosión a un objeto.                         
+                              p <b>Video. Explosión.</b> Generar el efecto explosión a un objeto.                         
 
                       .col-lg-6.d-flex
                         .tema3-link.d-flex(style="width:100%")
@@ -76,12 +76,9 @@
                             .anexo__icono
                               img(src="@/assets/curso/tema3/img03.svg")
                             .anexo__texto
-                              p <b>Video. Neblina</b> Generar el efecto niebla en un escenario. 
-                        
-                        
-
-    
+                              p <b>Video. Neblina.</b> Generar el efecto niebla en un escenario.
     separador
+
 </template>
 
 <script>

@@ -21,7 +21,7 @@
         LineaTiempoD.color-primario.mx-3
           .row.justify-content-center(numero="a" titulo="<i>Eevee</i>")          
             .col-lg-12
-              p.mb-4 Renderizado basado en físicas, una de sus características destacadas es que hace el proceso en tiempo real. Está enfocado en la velocidad e interactividad, se puede utilizar tanto en el <i>viewport </i>como en la salida final de imágenes, sus materiales están creados de la misma manera que los nodos de <i>cycles</i>, lo cual lo hace de fácil uso y vista previa para <i>cycles</i>. La gran diferencia de <i>eevee </i>con <i>cycles</i>, es que no utiliza <i>raytracing</i>, sino rasterización, lo cual se mide mediante algoritmos, indicando. Aproximadamente, cómo interactúa la luz con los objetos.
+              p.mb-4 Renderizado basado en físicas, una de sus características destacadas es que hace el proceso en tiempo real. Está enfocado en la velocidad e interactividad, se puede utilizar tanto en el <i>viewport </i>como en la salida final de imágenes, sus materiales están creados de la misma manera que los nodos de <i>cycles</i>, lo cual lo hace de fácil uso y vista previa para <i>cycles</i>. La gran diferencia de <i>eevee </i>con <i>cycles</i>, es que no utiliza <i>raytracing</i>, sino rasterización, lo cual se mide mediante algoritmos, indicando, aproximadamente, cómo interactúa la luz con los objetos.
               p.mb-5 A continuación, se relacionan algunos videos en donde se podrá encontrar más información respecto a los motores de <i>render</i>.
               .row.justify-content-center.align-items-center.mb-5
                 .col-lg-9
@@ -68,7 +68,7 @@
               .row.justify-content-end.mb-4
                 .col-lg-4
                   .tema3-link-b.d-flex(style="width:100%")
-                    a.anexo.mb-0(:href="obtenerLink('/downloads/Motores de render.pdf')" target="_blank")
+                    a.anexo.mb-0(:href="obtenerLink('/downloads/Motores_de_render.pdf')" target="_blank")
                       .anexo__icono
                         img(src="@/assets/template/icono-pdf.svg")
                       .anexo__texto
@@ -113,25 +113,6 @@
                   figure
                     img(src="@/assets/curso/tema3/img05.svg")
                 .col-lg-1
-              
-              //- div.tema3-fondo10.py-4
-                .row.justify-content-center
-                  .col-lg-8.ps-5
-                    p.mb-4 <b>Motores <i>render</i></b>
-                    p.mb-5 Los motores <i>render</i> son de ayuda para profundizar con una escena, por lo que se invita a consultar el video complementario que permitirá saber algo más a este respecto
-                    div.ps-4.pe-5
-                      .row.justify-content-center.mb-4
-                        .col-lg-6.d-flex
-                          
-                        .col-lg-6.d-flex
-                          
-
-                      .row.justify-content-center.mb-0
-                        .col-lg-6.d-flex
-                          
-                        .col-lg-6.d-flex
-                          
-
           .row.justify-content-center(numero="b" titulo="<i>Cycles</i>")   
             .col-lg-12
               p.mb-5 Este sistema de <i>render</i> utiliza el trazado de rayos, basándose en físicas y su comportamiento para generar la imagen, se pueden pasar de <i>eevee </i>a <i>cycles</i>, puesto que son compatibles en ciertos parámetros. 
@@ -149,7 +130,7 @@
                                 img(src="@/assets/curso/tema3/img03.svg")
                               .anexo__texto
                                 p <b>Video.</b>  fuente: Blendtuts-ES                      
-          .row.justify-content-center(numero="b" titulo="<i>Workbench</i>")     
+          .row.justify-content-center(numero="c" titulo="<i>Workbench</i>")     
             .col-lg-12
               p.mb-0 Se creó con la función de ser utilizado para vistas previas, modelado y composición
               
